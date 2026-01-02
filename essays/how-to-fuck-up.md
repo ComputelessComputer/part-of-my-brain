@@ -3,6 +3,7 @@ title: "How to fuck up"
 created_at: "2024-09-27 01:13:36.948352+00"
 updated_at: "2024-09-27 01:13:36.948352+00"
 published: false
+lang: en
 ---
 
 - Mistreat your team.

@@ -3,6 +3,7 @@ title: Chill Guy가 필요해
 created_at: "2025-01-20 20:50:00.000000+00"
 updated_at: "2025-01-20 20:50:00.000000+00"
 published: false
+lang: ko
 ---
 
 누군가 올린 쓰레드에서 전한길의 영상을 봤다.

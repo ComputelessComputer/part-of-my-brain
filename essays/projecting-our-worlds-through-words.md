@@ -3,6 +3,7 @@ title: "Projecting Our Worlds Through Words"
 created_at: "2024-10-06 13:14:49.057955+00"
 updated_at: "2024-10-06 13:14:49.057955+00"
 published: false
+lang: en
 ---
 
 ### tl;dr

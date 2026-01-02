@@ -3,6 +3,7 @@ title: "Tombstone"
 created_at: "2024-01-15 02:21:00+00"
 updated_at: "2024-01-15 02:21:00+00"
 published: false
+lang: en
 ---
 
 Why do I exist? What is life's purpose? I think that life is all about pursuing what you want to be remembered for.

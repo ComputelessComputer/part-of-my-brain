@@ -3,6 +3,7 @@ title: "Artist"
 created_at: "2024-01-29 17:02:31.015237+00"
 updated_at: "2024-01-29 17:02:31.015237+00"
 published: false
+lang: en
 ---
 
 We should all aim to become artists. While many people nowadays fixate on money, history tends to remember great individuals for their deeds, not their wealth. 

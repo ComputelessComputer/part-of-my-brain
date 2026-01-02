@@ -3,6 +3,7 @@ title: "Building This Website"
 created_at: 2026-01-02
 published: true
 tags: [meta, engineering]
+lang: en
 ---
 
 I rebuilt my website. Here's how it works.
