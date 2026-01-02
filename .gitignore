@@ -1,0 +1,21 @@
+# Exclude everything by default
+*
+
+# Include content folders
+!essays/
+!inspirations/
+!journals/
+!lessons/
+
+# Include markdown files in those folders
+!essays/**
+!inspirations/**
+!journals/**
+!lessons/**
+!README.md
+!.gitignore
+
+# Exclude Obsidian internals
+.obsidian/
+.trash/
+
