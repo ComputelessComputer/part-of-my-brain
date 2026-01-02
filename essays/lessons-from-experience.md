@@ -2,6 +2,7 @@
 title: "Lessons from experience"
 created_at: "2023-10-08 07:05:47.099392+00"
 updated_at: "2023-10-08 07:05:47.099392+00"
+published: false
 ---
 
 *Disclaimer: This essay does not intend to offend anyone. It is personally a writing of my understanding of the world and myself.*

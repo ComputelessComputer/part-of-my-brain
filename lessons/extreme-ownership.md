@@ -2,7 +2,6 @@
 title: "Extreme Ownership"
 author: "Jocko Willink, Leif Babin"
 created_at: "2023-04-21 11:27:37.226901+00"
-updated_at: "2023-04-21 11:27:37.226901+00"
 ---
 
 오랜만에 인상깊게 읽은 책이라 정리해본다. (링크: [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=201687628))

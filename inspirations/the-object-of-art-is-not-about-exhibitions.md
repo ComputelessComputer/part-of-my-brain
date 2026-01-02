@@ -1,7 +1,7 @@
 ---
 title: "The object of art is not about exhibitions"
 created_at: "2023-04-21 12:09:37.319737+00"
-updated_at: "2023-04-21 12:09:37.319737+00"
+type: "youtube"
 youtube_video_id: "wEQawgkCMOU"
 ---
 > We are not here to do what already has been done.

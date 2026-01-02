@@ -2,6 +2,7 @@
 title: "Startup is fast-forwarding life."
 created_at: "2023-11-09 15:55:51.702288+00"
 updated_at: "2023-11-09 15:55:51.702288+00"
+published: false
 ---
 
 The essence of life lies in discovering meaning that sustains you. Running a startup accelerates this journey, continually unveiling new facets of yourself.

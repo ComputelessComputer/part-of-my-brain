@@ -2,7 +2,6 @@
 title: "Traction"
 author: "Gabriel Weinberg, Justin Mares"
 created_at: "2023-05-25 03:03:50.417251+00"
-updated_at: "2023-05-25 03:03:50.417251+00"
 ---
 
 Link: [Traction: How Any Startup Can Achieve Explosive Customer Growth](https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/1591848369)

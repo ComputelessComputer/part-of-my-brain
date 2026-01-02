@@ -1,7 +1,7 @@
 ---
 title: "Technology and humanity"
 created_at: "2023-06-02 08:23:12.384046+00"
-updated_at: "2023-06-02 08:23:12.384046+00"
+type: "youtube"
 youtube_video_id: "ckjkz8zuMMs"
 ---
 > When you keep "people" at the center of what you do, it can have an enormous impact.
