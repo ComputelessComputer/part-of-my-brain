@@ -6,12 +6,16 @@
 !inspirations/
 !journals/
 !lessons/
+!assets/
+!pages/
 
 # Include markdown files in those folders
 !essays/**
 !inspirations/**
 !journals/**
 !lessons/**
+!assets/**
+!pages/**
 !README.md
 !.gitignore
 
@@ -19,3 +23,4 @@
 .obsidian/
 .trash/
 
+.DS_Store
