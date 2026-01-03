@@ -2,6 +2,7 @@
 title: "Traction"
 author: "Gabriel Weinberg, Justin Mares"
 created_at: "2023-05-25 03:03:50.417251+00"
+description: "19가지 트랙션 채널과 Bullseye 방법론을 통한 스타트업 성장 전략에 대한 학습 노트."
 ---
 
 Link: [Traction: How Any Startup Can Achieve Explosive Customer Growth](https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/1591848369)

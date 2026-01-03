@@ -1,9 +1,10 @@
 ---
 title: "Startup is fast-forwarding life."
-created_at: "2023-11-09 15:55:51.702288+00"
-updated_at: "2023-11-09 15:55:51.702288+00"
+created_at: "2023-11-09"
+updated_at: "2023-11-09"
 published: false
 lang: en
+description: "Running a startup accelerates self-discovery, continually unveiling new facets of yourself through the demands of building something."
 ---
 
 The essence of life lies in discovering meaning that sustains you. Running a startup accelerates this journey, continually unveiling new facets of yourself.

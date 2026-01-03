@@ -1,8 +1,9 @@
 ---
 title: "The object of art is not about exhibitions"
-created_at: "2023-04-21 12:09:37.319737+00"
+created_at: "2023-04-21"
 type: "youtube"
 youtube_video_id: "wEQawgkCMOU"
+description: "The purpose of creating art is not to get it into exhibitions—it's the work of implementing ideas that matters."
 ---
 > We are not here to do what already has been done.
 

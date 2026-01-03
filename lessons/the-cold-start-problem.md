@@ -2,6 +2,7 @@
 title: "The Cold Start Problem"
 author: "Andrew Chen"
 created_at: "2023-04-21 11:30:12.798127+00"
+description: "Andrew Chen의 네트워크 효과와 콜드 스타트 문제 해결에 대한 학습 노트."
 ---
 
 들어가기 앞서, 우선 이 책은 비즈니스에 대한 고민이 있을 때마다 다시 꺼내게 된다. 몇 번을 읽어도 무엇을 해야 할지 명확해지지 않으나 그래도 매번 새로운 감을 주는거 같아서 읽는다.

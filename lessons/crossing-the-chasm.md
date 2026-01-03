@@ -2,6 +2,7 @@
 title: "Crossing the Chasm"
 author: "Geoffrey A. Moore"
 created_at: "2023-05-11 01:07:51.138824+00"
+description: "Geoffrey Moore의 기술수용 주기와 캐즘을 넘기 위한 마케팅 전략에 대한 학습 노트."
 ---
 
 잘 안읽히던 책이다. 그러나 배울 점은 분명한 명저이기에 몇가지 적어본다. 기본적으로 시장을 나뉘어 봐야하고 각 시장별로 취해야 하는 행동이 다르다는 것을 강조한다. 그렇기 때문에 수많은 정의가 나오는데, 각각의 컨셉 중심으로 내용을 정리해보고자 한다. 또한, 이 [아티클](https://thinkinsights.net/strategy/crossing-the-chasm)도 좋아보인다. (나중에 열심히 읽어보자.)

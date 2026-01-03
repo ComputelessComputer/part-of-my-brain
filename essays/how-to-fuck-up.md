@@ -1,9 +1,10 @@
 ---
 title: "How to fuck up"
-created_at: "2024-09-27 01:13:36.948352+00"
-updated_at: "2024-09-27 01:13:36.948352+00"
+created_at: "2024-09-27"
+updated_at: "2024-09-27"
 published: false
 lang: en
+description: "A quick list of ways to fail: mistreat your team, be delusional, make poor decisions, and resist change."
 ---
 
 - Mistreat your team.

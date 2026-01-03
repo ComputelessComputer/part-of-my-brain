@@ -1,9 +1,10 @@
 ---
 title: "Artist"
-created_at: "2024-01-29 17:02:31.015237+00"
-updated_at: "2024-01-29 17:02:31.015237+00"
+created_at: "2024-01-29"
+updated_at: "2024-01-29"
 published: false
 lang: en
+description: "We should all aim to become artists, pursuing meaningful callings over mundane existence and writing the most interesting story of our lives."
 ---
 
 We should all aim to become artists. While many people nowadays fixate on money, history tends to remember great individuals for their deeds, not their wealth. 

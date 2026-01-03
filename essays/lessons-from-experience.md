@@ -1,9 +1,10 @@
 ---
 title: "Lessons from experience"
-created_at: "2023-10-08 07:05:47.099392+00"
-updated_at: "2023-10-08 07:05:47.099392+00"
+created_at: "2023-10-08"
+updated_at: "2023-10-08"
 published: false
 lang: en
+description: "Lessons learned from early startup experiences: team-fit, staying lean, dedication, knowing your limits, and maintaining credibility."
 ---
 
 *Disclaimer: This essay does not intend to offend anyone. It is personally a writing of my understanding of the world and myself.*

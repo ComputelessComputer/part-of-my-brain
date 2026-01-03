@@ -1,8 +1,9 @@
 ---
 title: "This is not a popularity contest"
-created_at: "2023-04-21 12:37:42.294351+00"
+created_at: "2023-04-21"
 type: "youtube"
 youtube_video_id: "oiWwyt3HVT0"
+description: "Leadership requires conviction and courage. You're not here to please—you're here to lead."
 ---
 > You want to be in a growing expanding industry, because that's where the opportunities will be.
 

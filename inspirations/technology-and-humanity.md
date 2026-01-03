@@ -1,8 +1,9 @@
 ---
 title: "Technology and humanity"
-created_at: "2023-06-02 08:23:12.384046+00"
+created_at: "2023-06-02"
 type: "youtube"
 youtube_video_id: "ckjkz8zuMMs"
+description: "Keep people at the center of what you do. Measure your impact not on likes, but on lives you touch."
 ---
 > When you keep "people" at the center of what you do, it can have an enormous impact.
 

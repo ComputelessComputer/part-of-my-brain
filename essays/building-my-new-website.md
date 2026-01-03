@@ -4,6 +4,7 @@ created_at: 2026-01-02
 published: true
 tags: [meta, engineering]
 lang: en
+description: "Building a file-based personal website using Obsidian as a CMS, Git for versioning, and a philosophy that files endure while interfaces change."
 ---
 
 I rebuilt my website. Here's how it works.
