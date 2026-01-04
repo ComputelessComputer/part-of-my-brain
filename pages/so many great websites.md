@@ -1,6 +1,6 @@
 - https://factory.ai/
 - https://www.ruru.build
-- https://unvalley.me/about
+- https://unvalley.me
 - https://masonjwang.com
 - https://neil.computer/
 -
