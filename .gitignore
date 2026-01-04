@@ -8,14 +8,16 @@
 !lessons/
 !assets/
 !pages/
+!gallery/
 
-# Include markdown files in those folders
+# Include files in those folders
 !essays/**
 !inspirations/**
 !journals/**
 !lessons/**
 !assets/**
 !pages/**
+!gallery/**
 !README.md
 !.gitignore
 
