@@ -1,10 +1,10 @@
 ---
-title: "죽음"
-created_at: "2025-03-21"
-updated_at: "2025-03-22"
-published: false
+title: 죽음
+created_at: 2025-03-21
+updated_at: 2025-03-22
+published: true
 lang: ko
-description: "할아버지의 장례를 치르며 가족의 의미와 삶과 죽음에 대해 깊이 성찰한 기록."
+description: 할아버지의 장례를 치르며 가족의 의미와 삶과 죽음에 대해 깊이 성찰한 기록.
 ---
 
 죽음은 참 많은 생각을 들게 한다.

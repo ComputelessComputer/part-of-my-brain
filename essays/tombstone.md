@@ -1,10 +1,10 @@
 ---
-title: "Tombstone"
-created_at: "2024-01-15"
-updated_at: "2024-01-15"
-published: false
+title: Tombstone
+created_at: 2024-01-15
+updated_at: 2024-01-15
+published: true
 lang: en
-description: "Life is about pursuing what you want to be remembered for. How do I want my tombstone to read?"
+description: Life is about pursuing what you want to be remembered for. How do I want my tombstone to read?
 ---
 
 Why do I exist? What is life's purpose? I think that life is all about pursuing what you want to be remembered for.
