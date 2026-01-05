@@ -1,10 +1,10 @@
 ---
-title: "Crossing the Chasm"
-author: "Geoffrey A. Moore"
-created_at: "2023-05-11 01:07:51.138824+00"
-description: "Learning notes on Geoffrey Moore's technology adoption life cycle and marketing strategies for crossing the chasm."
+title: Crossing the Chasm
+author: Geoffrey A. Moore
+created_at: 2023-05-11 01:07:51.138824+00
+description: Learning notes on Geoffrey Moore's technology adoption life cycle and marketing strategies for crossing the chasm.
+link: https://www.amazon.com/Crossing-Chasm-3rd-Disruptive-Mainstream/dp/0062292986
 ---
-
 This was a book that was difficult to read. However, it's clearly a classic with valuable lessons, so I'll jot down a few notes. The book fundamentally emphasizes that markets must be segmented and that different actions are required for each market. Because of this, numerous definitions emerge, and I'll try to organize the content around each concept. Also, this [article](https://thinkinsights.net/strategy/crossing-the-chasm) looks good. (I should read it thoroughly later.)
 
 ### Technology Adoption Life Cycle

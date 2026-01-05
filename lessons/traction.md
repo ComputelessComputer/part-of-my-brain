@@ -1,14 +1,10 @@
 ---
-title: "Traction"
-author: "Gabriel Weinberg, Justin Mares"
-created_at: "2023-05-25 03:03:50.417251+00"
-description: "Learning notes on startup growth strategies through 19 traction channels and the Bullseye methodology."
+title: Traction
+author: Gabriel Weinberg, Justin Mares
+created_at: 2023-05-25 03:03:50.417251+00
+description: Learning notes on startup growth strategies through 19 traction channels and the Bullseye methodology.
+link: https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/1591848369
 ---
-
-Link: [Traction: How Any Startup Can Achieve Explosive Customer Growth](https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/1591848369)
-
-# Traction
-
 First, what is traction? Traction is evidence that a company is taking off. A clearer definition would be **quantitative evidence of customer demand**.
 
 Founders typically choose traction channels they're familiar with. This behavioral pattern leads them away from choosing other channels that could produce definite results. And in many cases, less frequently used channels turn out to be the most effective channels in that industry. Also, you don't know which traction channel will work best until you try.

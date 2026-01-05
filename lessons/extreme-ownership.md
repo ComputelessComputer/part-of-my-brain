@@ -1,11 +1,12 @@
 ---
-title: "Extreme Ownership"
-author: "Jocko Willink, Leif Babin"
-created_at: "2023-04-21 11:27:37.226901+00"
-description: "Learning notes on Jocko Willink's extreme ownership leadership. The key is to let go of ego and take responsibility."
+title: Extreme Ownership
+author: Jocko Willink, Leif Babin
+created_at: 2023-04-21 11:27:37.226901+00
+description: Learning notes on Jocko Willink's extreme ownership leadership. The key is to let go of ego and take responsibility.
+link: https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs/dp/1250067057
 ---
 
-This is a book I read with great impression after a long time, so I'm organizing my notes. (Link: [Aladin](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=201687628))
+This is a book I read with great impression after a long time, so I'm organizing my notes.
 
 ## Preface
 

@@ -1,12 +1,12 @@
 ---
-title: "The Cold Start Problem"
-author: "Andrew Chen"
-created_at: "2023-04-21 11:30:12.798127+00"
-description: "Learning notes on Andrew Chen's network effects and solving the cold start problem."
+title: The Cold Start Problem
+author: Andrew Chen
+created_at: 2023-04-21 11:30:12.798127+00
+description: Learning notes on Andrew Chen's network effects and solving the cold start problem.
+link: https://www.coldstart.com/
 ---
 
 Before diving in, this is a book I keep coming back to whenever I have concerns about business. Even after reading it multiple times, it doesn't become clear what I should do, but I read it because it seems to give me new insights each time.
-Link: [The Cold Start Problem by Andrew Chen](https://www.coldstart.com/)
 
 # Network Effects
 
