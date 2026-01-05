@@ -1,6 +1,10 @@
-- https://factory.ai/
-- https://www.ruru.build
-- https://unvalley.me
-- https://masonjwang.com
-- https://neil.computer/
+- companies
+	- https://factory.ai/
+	- https://cofounder.co/
+- personal
+	- https://www.ruru.build
+	- https://unvalley.me
+	- https://masonjwang.com
+	- https://neil.computer/
+	- https://www.ivan.codes/
 -
