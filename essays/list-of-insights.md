@@ -2,7 +2,7 @@
 title: List of insights
 created_at: 2023-10-08
 updated_at: 2026-01-05
-published: false
+published: true
 lang: en
 description: A list of insights that I've obtained while suffering in life.
 ---
