@@ -20,21 +20,13 @@ There are networks where network effects strengthen as more people join, but the
 
 by Theodore Vail, former President of AT&T
 
-Whisper is the same. From a writer's perspective, if there's no one to read, they won't feel any value. The difference is that since it's asynchronous communication, you just need to create that feeling. For this, you enable various interactions like likes, comments, replies, and following.
-
-> The "network" is defined by **people who use the product to interact with each other**. For AT&T's telephone network, it literally consisted of the wiring that spanned between homes.
+> The "network" is defined by **people who use the product to interact with each other**.
 
 > The "effect" part of the network effect describes **how value increases as more people start using the product**. Sometimes the increasing value manifests as higher engagement, or faster growth. But another way is to think about it as a contrast---at its beginning. YouTube didn't have any videos, and neither viewers nor creators would find it valuable. But today, YouTube has nearly 2 billion active users watching a billion minutes of video per day, and this in turn creates engagement between creators and viewers, viewers and each other, and so on.
 
-How should the network's value increase in Whisper? For each user making up the network to feel the value of that network, shouldn't they be able to track their posts and comments?
-
 > ... how do you tell if a product has a network effect, and, if yes, how strong is it? The questions to ask are simple: First, **does the product have a network?** ... And second, **does the ability to attract new users, or to become stickier, or to monetize, become even stronger as its networks grows larger?**
 
-Does Whisper have a network? Yes.
-
-Does Whisper become stickier as users increase? I'm not sure. From a producer's perspective, more users means more audience they can reach, which is good. But if there's no way to know this, and if metrics can't be gathered and checked in one place, it's all pointless. In this regard, the stickiness consumers feel depends on producers. If content isn't produced, all consumers will leave.
-
-> ... it's not a great time to launch a new product. ... competition is fierce, copycats abound, and marketing channels are ineffective.
+> ... it's not a great time to launch a new product.
 
 > We are now in a zero-sum era of attention with minimal defensibility for a vast swath of mobile app, software-as-a-service (SaaS) products, and web platforms.
 
@@ -81,8 +73,6 @@ by Stewart Butterfield, CEO of Slack
 > For new products, it's important to **have a hypothesis for the size of your network even before you begin**. Communication apps can be 1:1, so the network is small, and you can plan accordingly. Contrast that to products that are highly asymmetrical, with content creators and viewers, or marketplaces with buyers and sellers---these are likely to require a much bigger number to hit the threshold, and require a much bigger effort to get started. The size of an initial network helps determine a launch strategy.
 
 > **You need the right people on the network**. Ten people using Slack all from the same team is better than ten random people in a larger company. **Density and interconnectedness is key**.
-
-Should we also use Whisper as a place for confession among ourselves, and gradually recommend friends to confess there?
 
 ## The Atomic Network
 
