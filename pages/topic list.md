@@ -2,4 +2,5 @@
 	- john's story (interview format)
 	- yujong's story (interview format)
 	- how we work at hyprnote - show off our company handbook
-	- computers were humans in the past
+	- [computers](https://en.wikipedia.org/wiki/Computer_(occupation)) were humans in the past
+	-
