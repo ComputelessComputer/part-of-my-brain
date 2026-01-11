@@ -1,4 +1,5 @@
 - hyprnote blog:
 	- john's story (interview format)
 	- yujong's story (interview format)
-	-
+	- how we work at hyprnote - show off our company handbook
+	- computers were humans in the past
