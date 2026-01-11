@@ -10,6 +10,5 @@
 	- github is the ultimate project management tool
 	- 예쁨과 아름다움의 차이 - 성당에서 부둥켜 안고 있던 사람들을 보며
 	- act, not react - 주체성이란 무엇일까?
-	- social media and echo chamber
+	- social media and echo chamber - this is more of a study that i want to do
 	- 납땜 하나 못하는 전기과 졸업생이 말이 되냐?
-	- 자유가 제한되면 주체성을 잃는다
