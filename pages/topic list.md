@@ -3,4 +3,5 @@
 	- yujong's story (interview format)
 	- how we work at hyprnote - show off our company handbook
 	- [computers](https://en.wikipedia.org/wiki/Computer_(occupation)) were humans in the past
+	- bodybuilding and startups are identical - you can't always do the stuff you like to do. (elon said )
 	-
