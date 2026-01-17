@@ -24,5 +24,6 @@
 # Exclude Obsidian internals
 .obsidian/
 .trash/
-
+private/
+private/**
 .DS_Store
