@@ -1,2 +1,7 @@
-- https://x.com/miraglasses
+- https://www.trymira.com
+- https://mentraglass.com/
+- https://www.waveglasses.com/
+- https://pickle.com/
+- https://www.spectacles.com/
+- https://www.meta.com/ai-glasses/
 -
