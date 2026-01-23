@@ -1,17 +1,7 @@
 # Exclude everything by default
 *
 
-# Include content folders
-!essays/
-!inspirations/
-!journals/
-!lessons/
-!assets/
-!attachments/
-!pages/
-!gallery/
-
-# Include files in those folders
+# Include content folders and their files
 !essays/**
 !inspirations/**
 !journals/**
@@ -22,10 +12,3 @@
 !gallery/**
 !README.md
 !.gitignore
-
-# Exclude Obsidian internals
-.obsidian/
-.trash/
-private/
-private/**
-.DS_Store
