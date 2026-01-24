@@ -1,4 +1,4 @@
-# Exclude everything by default
+i# Exclude everything by default
 *
 
 # Include content folders and their files
@@ -7,7 +7,6 @@
 !journals/**
 !lessons/**
 !assets/**
-!attachments/**
 !pages/**
 !gallery/**
 !README.md
