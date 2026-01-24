@@ -1,13 +1,23 @@
-i# Exclude everything by default
+# Exclude everything by default
 *
 
+
+.DS_Store
+
 # Include content folders and their files
+!essays
 !essays/**
+!inspirations
 !inspirations/**
+!journals
 !journals/**
+!lessons
 !lessons/**
+!assets
 !assets/**
+!pages
 !pages/**
+!gallery
 !gallery/**
 !README.md
 !.gitignore
