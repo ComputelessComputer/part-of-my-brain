@@ -1,9 +1,6 @@
 # Exclude everything by default
 *
 
-
-.DS_Store
-
 # Include content folders and their files
 !essays
 !essays/**
@@ -21,3 +18,5 @@
 !gallery/**
 !README.md
 !.gitignore
+
+.DS_Store
