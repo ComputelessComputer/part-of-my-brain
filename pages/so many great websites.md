@@ -1,6 +1,7 @@
 - companies
 	- https://factory.ai/
 	- https://cofounder.co/
+	- https://wabi.ai
 - personal
 	- https://www.ruru.build
 	- https://unvalley.me
