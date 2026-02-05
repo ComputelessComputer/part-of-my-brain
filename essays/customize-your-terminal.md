@@ -1,7 +1,7 @@
 ---
 title: Customize your terminal
-created_at: 2024-01-29
-updated_at: 2024-01-29
+created_at: 2026-02-05
+updated_at: 2026-02-05
 published: false
 lang: en
 description: Why customizing your terminal makes you a better builder.
