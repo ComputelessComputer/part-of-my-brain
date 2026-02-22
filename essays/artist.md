@@ -6,7 +6,6 @@ published: true
 lang: en
 description: We should all aim to become artists, pursuing meaningful callings over mundane existence and writing the most interesting story of our lives.
 ---
-
 We should all aim to become artists. While many people nowadays fixate on money, history tends to remember great individuals for their deeds, not their wealth. 
 
 But, do we all have to be great? Well, no. But must we all strive for greatness? Not necessarily. **Yet, if you, like me, aspire to leave a mark on the world, then indeed, you should pursue greatness.** First off, what's not great? That is mundane.

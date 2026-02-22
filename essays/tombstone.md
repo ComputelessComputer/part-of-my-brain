@@ -6,7 +6,6 @@ published: true
 lang: en
 description: Life is about pursuing what you want to be remembered for. How do I want my tombstone to read?
 ---
-
 Why do I exist? What is life's purpose? I think that life is all about pursuing what you want to be remembered for.
 
 > How do I want to be remembered?
