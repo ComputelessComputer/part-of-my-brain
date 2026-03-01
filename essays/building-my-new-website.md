@@ -60,7 +60,7 @@ That is how I treat my tools.
 
 - I use [Logseq](https://logseq.com/) for daily logs and timeline style journaling.
 - I use [Obsidian](https://obsidian.md/) for long form thinking like essays, inspirations, and lessons.
-- I use [Hyprnote](https://hyprnote.com/) for meeting notes.
+- I use [Char](https://char.com/) for meeting notes.
 
 All of them operate on files. That is the invariant.
 
