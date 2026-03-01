@@ -1,8 +1,9 @@
 ---
-title: "I Built an Open Source Alternative to Logseq"
+title: I Built an Open Source Alternative to Logseq
+created_at: 2026-03-02
 published: true
 lang: en
-description: "Why I built an open source alternative to Logseq, tracking daily notes in plain files with no lock-in."
+description: Why I built an open source alternative to Logseq, tracking daily notes in plain files with no lock-in.
 ---
 I built an open source alternative to Logseq.
 
