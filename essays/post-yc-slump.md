@@ -5,7 +5,6 @@ published: false
 lang: en
 description: "How Char founders avoided the post-YC slump by learning to distinguish between real progress and empty momentum. On saying no, clear thinking, and focusing on what actually matters."
 ---
-
 Post-YC slump is the thing we're trying to avoid at all cost.
 
 <Image src="/api/images/blog/post-yc-slump/sam.jpg" alt="Post-YC Slump by Sam Altman"/>    
