@@ -4,7 +4,7 @@ created_at: 2026-03-19
 updated_at:
 published: false
 lang: en
-description:
+description: foo
 ---
 과연 미래에 모든 직업이 사라질까?
 과연 변호사가 사라질까?
