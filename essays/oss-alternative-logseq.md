@@ -17,7 +17,7 @@ But after a few months, one thing kept bothering me. I was losing track of my to
 
 I built my own. It's called Philo.
 
-It uses the same opinionated Tiptap editor setup we use in Char. Minimal UI, just text and structure.
+It uses the same opinionated Tiptap editor setup I use in Char. Minimal UI, just text and structure.
 
 Every day, Philo pulls unfinished todos from previous daily notes into today's note. If something's not done, it follows you forward.
 

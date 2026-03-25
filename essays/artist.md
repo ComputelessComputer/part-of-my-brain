@@ -6,9 +6,9 @@ published: true
 lang: en
 description: We should all aim to become artists, pursuing meaningful callings over mundane existence and writing the most interesting story of our lives.
 ---
-We should all aim to become artists. While many people nowadays fixate on money, history tends to remember great individuals for their deeds, not their wealth. 
+I aim to become an artist. While many people nowadays fixate on money, history tends to remember great individuals for their deeds, not their wealth.
 
-But, do we all have to be great? Well, no. But must we all strive for greatness? Not necessarily. **Yet, if you, like me, aspire to leave a mark on the world, then indeed, you should pursue greatness.** First off, what's not great? That is mundane.
+But, do I have to be great? Well, no. But must I strive for greatness? Not necessarily. **Yet, if you, like me, aspire to leave a mark on the world, then indeed, you should pursue greatness.** First off, what's not great? That is mundane.
 
 Being mundane is either normal or pathetic. Being mundane is not standing out. Being mundane is not contributing to a better world. Being mundane is being a boring person. Being mundane means no flavor, no color, nothing whatsoever. **Being mundane is dying.**
 

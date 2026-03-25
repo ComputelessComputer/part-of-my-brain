@@ -1,10 +1,10 @@
 ---
-title: "The Codebase Is No Longer a Moat"
+title: The Codebase Is No Longer a Moat
 created_at: 2025-11-30
 updated_at: 2025-11-30
-published: false
+published: true
 lang: en
-description: "AI has changed the economics of building software. Code is no longer scarce—taste, execution, and trust are. Why transparency is becoming the real competitive advantage."
+description: AI has changed the economics of building software. Code is no longer scarce — taste, execution, and trust are. Why transparency is becoming the real competitive advantage.
 ---
 ## The codebase is no longer a moat
 
@@ -46,17 +46,17 @@ Open source signals confidence. Users can own their tools rather than be locked 
 
 In a world shaped by opaque AI systems, transparency is valuable. In a world where data privacy matters more each year, user control is essential.
 
-## Why we built OSS Friends
+## Why I built OSS Friends
 
-We wanted to give back to the community that shaped how we build.
+I wanted to give back to the community that shaped how I build.
 
-OSS Friends is a directory of open source applications that inspire us. Not infrastructure or libraries or frameworks, but actual apps that people use every day. Tools that prove open source is a product philosophy, not just technical infrastructure.
+OSS Friends is a directory of open source applications that inspire me. Not infrastructure or libraries or frameworks, but actual apps that people use every day. Tools that prove open source is a product philosophy, not just technical infrastructure.
 
 You can explore the directory here: [OSS Friends](/oss-friends)
 
-We want to highlight teams pushing software toward transparency, user ownership, and good taste. Open source applications are not niche. They are the future.
+I want to highlight teams pushing software toward transparency, user ownership, and good taste. Open source applications are not niche. They are the future.
 
-If you know an open source app that deserves attention, tell us. We want OSS Friends to grow into a place that champions the builders shaping this wave.
+If you know an open source app that deserves attention, tell me. I want OSS Friends to grow into a place that champions the builders shaping this wave.
 
 ## The future is open, not because of ideology, but because of reality
 
