@@ -7,7 +7,7 @@ lang: en
 description: The real question was never how you capture a meeting. It was what happens to everything that flows from it.
 ---
 
-We launched Char a year ago as a meeting notetaker. I've come to believe that framing was too small.
+We launched [Char](https://char.com) a year ago as a meeting notetaker. I've come to believe that framing was too small.
 
 The real question was never *how do you capture a meeting?* It was: *what happens to all the intent, context, and decisions that meetings produce — and who is responsible for carrying them forward?*
 
@@ -49,11 +49,15 @@ The question we kept circling was whether to bet on *open source* or *on-device 
 
 #### May 2025: A signal from the market — chased too fast
 
+![](Pasted%20image%2020260401210239.png)
+
 After a [successful launch on Reddit](https://www.reddit.com/r/LocalLLaMA/comments/1k3fdqa/i_spent_5_months_building_an_open_source_ai_note/) in April, something interesting happened: directors and senior managers started reaching out. They wanted a safe AI notetaker. Many employees at larger companies couldn't use existing tools due to data policies. We saw an opportunity to get inside the doors of large enterprises.
 
 But the open source vs. on-device question was still unresolved. We told ourselves we could do both.
 
 #### YC: The wrong bet, executed poorly
+
+![](Pasted%20image%2020260401210512.png)
 
 We applied to YC with the enterprise thesis. Our first instinct was to reach out to "potential" leads — which was the wrong move entirely. We were targeting a segment we'd never validated, throwing darts in the air while blindfolded.
 
@@ -118,7 +122,7 @@ Think back to belief #4: humans are naturally poor at managing complexity. Every
 
 ###### Executive Assistant
 
-The daily note is going to become our killer feature — building Philo made me genuinely bullish about this, and frankly I'd been thinking about it since last year.
+The daily note is going to become our killer feature — building [Philo](https://philo.so) made me genuinely bullish about this, and frankly I'd been thinking about it since last year.
 
 ![](Pasted%20image%2020260401165943.png)
 
@@ -126,7 +130,7 @@ A daily note that evolves throughout your day is like having an Executive Assist
 
 ![](Pasted%20image%2020260401175215.png)
 
-When you finish a meeting, action items surface directly in your daily note. You no longer need to track them somewhere else — and it's where you capture everything that's on your mind. Over time, Char becomes your memory for everything.
+When you finish a meeting, action items surface directly in your daily note. When you do stuff on your computer, it automatically understands what's been done — just like [Openbird](https://openbird.vercel.app). You no longer need to track them somewhere else — and it's where you capture everything that's on your mind. Over time, Char becomes your memory for everything.
 
 This is the first step.
 
@@ -134,7 +138,7 @@ This is the first step.
 
 In the future, not only will tasks become things you shouldn't have to execute — you shouldn't have to manage them either.
 
-Daily notes are a timeline-based way of constructing episodic memory. I'm confident that triaging tasks will be far easier with rich context — I've learned this while building aipm and trialing tools like Modem. They fall short when they don't have an evolving context, because they only echo loud signals which are often noise.
+Daily notes are a timeline-based way of constructing episodic memory. I'm confident that triaging tasks will be far easier with rich context — I've learned this while building [aipm](https://aipm.johnjeong.com) and trialing tools like [Modem](https://modem.dev). They fall short when they don't have an evolving context, because they only echo loud signals which are often noise.
 
 Imagine this. You finish a difficult product meeting. Three action items surface in your daily note: a spec to write, a design decision to unblock, an email to send. You don't touch any of them. Char has enough context from the conversation to route the spec to Cursor, flag the design decision to your co-founder's daily note, and draft the email for your review. By the time you're in your next meeting, the work is already in motion.
 
