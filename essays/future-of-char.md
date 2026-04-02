@@ -103,7 +103,7 @@ We experimented with our pricing, moving from $8 to $25/month. Retention dropped
 
 #### March 2026: The opening
 
-Granola recently [raised at a ~$1B valuation](https://www.forbes.com/sites/iainmartin/2026/01/30/vcs-favorite-note-taking-app-granola-in-talks-to-hit-1-billion-valuation/) and is moving upmarket toward enterprise. I think that's a gift.
+Granola recently [raised at a $1.5B valuation](https://www.granola.ai/blog/series-c) and is moving upmarket toward enterprise. I think that's a gift.
 
 For the past few months I've been building adjacent tools and dogfooding them every day — a task manager, a daily notes app, an automatic activity log, an inbox cleaner. The pattern I kept running into: each tool worked in isolation, but none of them had *context over time*. The missing layer wasn't another tool. It was something that connected all of them, with memory, continuously.
 
