@@ -6,7 +6,6 @@ published: true
 lang: en
 description: The real question was never how you capture a meeting. It was what happens to everything that flows from it.
 ---
-
 We launched [Char](https://char.com) a year ago as a meeting notetaker. I've come to believe that framing was too small.
 
 The real question was never *how do you capture a meeting?* It was: *what happens to all the intent, context, and decisions that meetings produce — and who is responsible for carrying them forward?*
