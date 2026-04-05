@@ -1,0 +1,37 @@
+---
+type: "meeting"
+started_at: "2026-04-05T04:04:47.890Z"
+ended_at: "2026-04-05T04:13:36.461Z"
+location: "Seoul"
+executive_summary: "A founder/developer gives an informal demo and explains the product vision for their meeting/transcription application (Char), discussing interface redesign priorities, the decision to deprioritize on-device transcription, and a new application called Fillow built on Char's audio pipeline."
+session_kind: "informative"
+source: "ad-hoc"
+---
+## Summary
+- A solo presenter gave an informal walkthrough and product philosophy talk about their application, Char, a personal meeting recording and transcription tool.
+- They demonstrated Fillow, a separate application built on top of Char's audio pipeline and inference system, as a reference for the direction they want to take.
+- The presenter discussed redesigning the left sidebar interface, noting that users only care about upcoming events and don't scroll to past ones, making much of the current layout useless.
+- They described Char as a 'selfish application' — personal, not shown to counterparties — used to supercharge one's day, with derived outputs like to-dos that could replace separate tools like Apple Reminders.
+- The presenter explained that on-device transcription has not been a core focus because it causes friction and is tricky to integrate, and other tools like Handy already provide it out of the box.
+- They stated the team's core strength is in redesigning interfaces and making user-friendly experiences, not in on-device processing.
+- The company is venture-backed mostly by angel investors, and the presenter expressed indifference to growth pressure, emphasizing craftsmanship and building what the team believes in.
+- They acknowledged some users treat the application as a free transcription tool but indicated the product vision goes beyond that.
+## Key Takeaways
+- The team plans to reimagine the interface of Char, particularly the left sidebar, to better match how users actually interact with upcoming vs. past content.
+- On-device transcription is intentionally deprioritized — the team sees interface design and user experience as their core differentiator.
+- Derived outputs like to-dos and action items generated automatically after meetings are a key part of the product vision.
+- Fillow is a new application built on Char's audio pipeline, serving as a reference for future product direction.
+- The team values craftsmanship over rapid growth despite being venture-backed.
+## Transcript
+**Speaker 1 - 00:01**
+And it's going to be listening to the things that I'm saying, obviously. And , um, let me just turn on whatever, like, podcast or, um, something.
+**Speaker 2 - 00:15**
+Going.
+**Speaker 1 - 00:15**
+Go and get the order. Deliver it to you. And I used to be an intern at Square, and so I had these card readers, which was one of their earliest products. Yeah, so it just works the same, like, char. Basically, but I, I, I just think that there 's gonna there's a much more intuit ive way to actually redesign our interface. Um, and for example, the left sidebar, we thought that , okay, obviously people are looking at what's upcom ing; you don't scroll down to , like, what's happened in the past. So this, like, whole area is basically useless . We should try to reinvent that. Okay, like, obvious ly. Um, people are trying to kind of find because our applic ation is basically something that's ver y, very personal in some sense because you don't kind of, like, show to other people that, "Hey, like, I'm using char. I've never seen that hap pen by the way." Um, to , like, the counterparty. And , you know, so it's, it's basically somewhat of a selfish application. You know, you use it to kind of super charge your day. And , like, the things that k ind of gets derived is, like, the to -dos and stuff like that. And normally, like, you want to have that kind of plugged in el sewhere. Um, l ike in a separate, like, Apple Rem inder or something. But we thought, you know, why not kind of have those all , like, derived at, um, like, when the meeting's over? You know, so that 's the thing that we've been trying to reimag ine. Um, and I'm sorry that , you know, on-device hasn't been at the core of our You know, tech stack. But unfortunately, there's a lot of these other great tools that just prov ide on-device transcription out of the box, such as Handy, um, I don't know. Like, there's a bunch. But we think that our core strength as a team is more about kind of . Redesigning interfaces and trying to kind of make something that's much more user-friendly . And unfortunately, on-device has always been in our way and it has been causing friction . Um, in many, many of these scenarios. Just because it, you know, it's, it's pretty kind of tricky to kind of integrate it together into the application. And I am very grateful that , you know, a lot of y ou guys like our applic ation. Um, and although that some people think that our application is a free transcription tool, I'm okay with that. But unfortunately, you know, it's not just because, like, we, we were venture-backed. Like, a majority of our investors is basically angels, by the way. So, um, you know, I, I really don't give a shit about it. Um, like, if they if they're going to be kind of pestering me about , like, like, "Why aren't you guys growing fast enough?" We just care a lot about c raftsmanship and we care a lot about what we want to be build ing. And, um, on-de vice, you know, to be blunt, has been somewhat of, like, outside of our spotlight of focus.
+**Speaker 2 - 03:56**
+Okay, this is to give you guys a quick demo of, like, what we think we should be building. And it 's just going to be something like the bas ic interface is going to be the same. Um, and FYI, this is —okay, this is to give you guys a quick demo of, like, what we—what we think we should be building. And it's just going to be something like the basic interface is going to be the same. Um, and F YI, this is, um, Fillow, so it's different application that I built, uh, on top. Okay, this is to give you guys a quick demo of, like, what we think we should be building. And it's just going to be something like —
+**Speaker 2 - 05:24**
+Okay, this is to—
+**Speaker 2 - 07:05**
+Okay, this is to give you gu ys a quick demo of, like, what we think we should be build ing. And it's just going to be something like the basic interface is going to be the sam e. Um, and FYI, this is , um, Fillow, so it's different applic ation that I built, uh, on top of the —the audio pipel ine and, you know, how inference works, um, in— in Char. So just —just kind of see this as , like, a reference. So I 'm just going to press on meeting recording. And it's going to be listening to the —the things that I'm say ing, obviously. And, um, let me just turn on whatever, like, podcast or, um, something. Go and get the order. Deliver it to you. And I used to be an intern at Square, and so I had these card re aders, which was one of their earliest products. Ye ah, so it just works the same, like, Char, basicall y, but I—I—I just think that there's going to—there's a much more intuitive way to actually red esign our interface . Um, and for example, the left sidebar, we th ought that, okay, obviously people are looking at what 's upcoming; you don't scroll down to, like, what's happened —
