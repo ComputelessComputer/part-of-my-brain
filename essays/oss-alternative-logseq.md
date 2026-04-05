@@ -7,7 +7,7 @@ description: Why I built an open source alternative to Logseq, tracking daily no
 ---
 I built an open source alternative to Logseq.
 
-For the past few years, I've tracked my entire day in a single daily note. Thoughts, todos, random links, half-baked ideas, all in one file. See more in johnjeong.com/journals.
+For the past few years, I've tracked my entire day in a single daily note. Thoughts, todos, random links, half-baked ideas, all in one file.
 
 Files are files. My journals folder sits in my vault, and I can open it in Obsidian, Logseq, or anything else that reads plain text. No lock-in, no export anxiety.
 
@@ -15,9 +15,9 @@ I switched from Obsidian to Logseq because I hated the tab-based UI for reviewin
 
 But after a few months, one thing kept bothering me. I was losing track of my todos. Tasks were buried in past daily notes. Some half-done, some forgotten entirely. The system was adding mental load, not reducing it.
 
-I built my own. It's called Philo.
+I built my own. It's called [Philo](https://philo.so).
 
-It uses the same opinionated Tiptap editor setup I use in Char. Minimal UI, just text and structure.
+It uses the same opinionated [Tiptap editor setup](https://github.com/fastrepl/char/packages/tiptap/README.md) I use in [Char](https://char.com). Minimal UI, just text and structure.
 
 Every day, Philo pulls unfinished todos from previous daily notes into today's note. If something's not done, it follows you forward.
 

@@ -6,20 +6,20 @@ published: true
 lang: en
 description: We should all aim to become artists, pursuing meaningful callings over mundane existence and writing the most interesting story of our lives.
 ---
-I aim to become an artist. While many people nowadays fixate on money, history tends to remember great individuals for their deeds, not their wealth.
+I want to be an artist. In a world where most people chase money, history remembers the great ones for what they did — not how much they earned.
 
-But, do I have to be great? Well, no. But must I strive for greatness? Not necessarily. **Yet, if you, like me, aspire to leave a mark on the world, then indeed, you should pursue greatness.** First off, what's not great? That is mundane.
+Do I have to be _great_? No. Do I have to aim for greatness? Not necessarily. But if you, like me, want to leave a lasting mark on the world, then you should pursue it. First, what's _not_ great? It's mundane.
 
-Being mundane is either normal or pathetic. Being mundane is not standing out. Being mundane is not contributing to a better world. Being mundane is being a boring person. Being mundane means no flavor, no color, nothing whatsoever. **Being mundane is dying.**
+Being ordinary is either just normal or downright dull. Ordinary people don't stand out, they don't change the world, and they're easy to forget. A mundane life has no flavor, no color — essentially it's a life that fades away.
 
-The whole purpose of life is to pursue a calling. A calling that you're willing to sacrifice the "easy" life --- working 9 to 6, enjoying hobbies, enjoying whiskey, and so on.
+The point of living is to follow a calling — a calling that pushes you to trade the easy life (9‑to‑5, hobbies, a glass of whiskey) for something bigger.
 
-I tend to think of these callings in terms of what I'd like to be remembered for at my funeral. Pursuing a calling is about writing the most interesting story there has ever been. **No other story should excite you.** If so, you're probably working on the wrong thing.
+I think about these callings in terms of what I want people to remember me for at my funeral. Pursuing a calling means writing the most compelling story ever told. If no other story excites you, you're probably chasing the wrong thing.
 
-Stories may turn out to be similar. This is quite common. After all, knowledge is a collective asset built by "people". Similar ideas, therefore, often emerge at the same time. 
+Stories often look alike—that's normal. Knowledge is a shared resource, and similar ideas tend to surface at the same time.
 
-However, that's okay. Your work primarily needs to resonate with you. Ideas may start out from the same seed. But working on it, **that is what will differentiate you from others.** It's your execution, your story, and your life.
+But that's fine. Your work should first resonate with you. Ideas may sprout from the same seed, but how you grow them — that's what sets you apart. It's your execution, your narrative, and your life.
 
-If everyone embraced the artist within, the world would be full of rich stories, far more exciting than those of people who merely show off their bodies or wealth online. The world would be much more peaceful. The world would be much more beautiful. The world would be much more thoughtful. 
+If everyone tapped into their inner artist, the world would overflow with rich stories — far more exciting than the fleeting show‑off of bodies or wealth online. It would be calmer, more beautiful, and more thoughtful.
 
-> The world needs to be artistic.
+The world needs art.
