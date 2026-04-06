@@ -6,7 +6,6 @@ published: false
 lang: en
 description: Your terminal is the most-opened app you have. Here's why it should feel like yours.
 ---
-
 There's a running joke that engineers spend more time configuring their tools than actually using them. I think that joke misses the point entirely.
 
 Your terminal is the one app you open more than anything else. More than Slack, more than your browser, more than your IDE. It's where you ship things, debug things, and occasionally watch a build fail for the fourth time in a row. You live there. So why does it look like it just came out of the box?
