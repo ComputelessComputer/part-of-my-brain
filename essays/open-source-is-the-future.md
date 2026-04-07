@@ -8,6 +8,8 @@ description: AI has changed the economics of building software. Code is no longe
 ---
 ## The codebase is no longer a moat
 
+![[Excalidraw/oss-fig1-economics.excalidraw.md]]
+
 For the last two decades, the software industry believed a simple rule: if you keep your code closed, competitors cannot catch you. It was a rule built on fear and on a world where writing software required armies of engineers and thousands of hours.
 
 That world is gone.
@@ -20,6 +22,8 @@ The real advantages now are taste, execution, and trust.
 
 ## Why open source is having a second wave
 
+![[Excalidraw/oss-fig2-waves.excalidraw.md]]
+
 Open source dominated infrastructure for years. Linux, PostgreSQL, Docker, Kubernetes, Redis, Python, Rust became the backbone of modern software. Applications never followed the same pattern. Most teams assumed real product companies needed proprietary edges, branding control, or complex business models.
 
 But there were always exceptions. OBS Studio, Blender, VLC, Krita—people used these apps every day without thinking about whether they were open source. They used them because they worked well, respected their users, and did what they promised.
@@ -28,6 +32,8 @@ The shift is happening now. Open source is moving past infrastructure into appli
 
 ## AI is accelerating open source, not replacing it
 
+![[Excalidraw/oss-fig3-flywheel.excalidraw.md]]
+
 AI doesn't replace open source. It strengthens it.
 
 AI reduces the cost of contribution and speeds up iteration. It expands what a small team can accomplish and makes community collaboration easier. It lowers the barrier to building polished interfaces and high-quality UX.
@@ -35,6 +41,8 @@ AI reduces the cost of contribution and speeds up iteration. It expands what a s
 Open source no longer means slow, clunky, or "good enough for free." With AI, open source can match or exceed the pace of any closed team. Speed combined with transparency and a passionate community creates something more durable than secrecy.
 
 ## The real moat has shifted
+
+![[Excalidraw/oss-fig4-moat-shift.excalidraw.md]]
 
 When code becomes cheap to generate, product philosophy becomes the moat.
 
@@ -59,6 +67,8 @@ I want to highlight teams pushing software toward transparency, user ownership, 
 If you know an open source app that deserves attention, tell me. I want OSS Friends to grow into a place that champions the builders shaping this wave.
 
 ## The future is open, not because of ideology, but because of reality
+
+![[Excalidraw/oss-fig5-timeline.excalidraw.md]]
 
 The shift is practical, not political.
 
