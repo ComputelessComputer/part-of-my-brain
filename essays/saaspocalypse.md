@@ -8,6 +8,8 @@ description: The messy truth about why I rewrote Char. No product philosophy, to
 ---
 The "SaaS-pocalypse" narrative is directionally right — but misunderstood.
 
+The dominant view — articulated by analysts at firms like [a16z](https://a16z.com/good-news-ai-will-eat-application-software/) and echoed by [Forrester](https://www.forrester.com/blogs/saas-as-we-know-it-is-dead-how-to-survive-the-saas-pocalypse/) — holds that AI will commoditize all application software. The argument: coding agents can replicate any feature on demand, seat-based pricing is collapsing, and AI-native companies will hollow out the entire SaaS layer. It's a compelling argument. But it's too broad.
+
 AI isn't killing SaaS. It's killing replaceable SaaS.
 
 And most of that lives in a category that's been quietly exploding over the last few years: indie-built utility software.
@@ -28,6 +30,8 @@ That constraint is now gone.
 
 With modern coding agents, users don't need to search for software to solve these problems. They can generate disposable tools on demand. The friction of building has collapsed to near zero for non-repetitive use cases.
 
+I've seen this firsthand building Char. Tasks that used to require finding and subscribing to a dedicated tool — parsing structured data, transforming file formats, handling one-off automation — I now generate with a coding agent in minutes. The tool runs once, solves the problem, and disappears. No subscription. No onboarding. No recurring cost.
+
 If a product exists solely to solve a narrow, one-off task, it no longer needs to exist as a business.
 
 ---
@@ -42,7 +46,7 @@ A product that is simply a wrapper around a single capability — no matter how 
 
 This is why so many "useful" products are quietly becoming obsolete.
 
-Take employee recognition tools like HeyTaco. On the surface, they solve a real problem. But as a standalone product with limited surface area and no meaningful expansion path, they are fragile by design.
+The data supports this. Companies reduced their average SaaS application count by [18% between 2022 and 2024](https://www.bettercloud.com/monitor/saas-industry/), according to BetterCloud — and the cuts aren't coming from platforms. They're coming from point solutions: single-function tools with limited surface area and no meaningful expansion path.
 
 If a product cannot evolve beyond its initial feature set — or integrate into a broader workflow — it is already dead. AI just accelerates the timeline.
 
@@ -58,9 +62,9 @@ There are three durable categories:
 
 1. **Deep workflow integration** — Products embedded in daily operations are difficult to replace, even if individual features are replicable. Tools like Slack or Salesforce don't win because of any single capability. They win because they sit at the center of how work gets done. Replacing them requires ripping out entire systems, retraining teams, and reconfiguring processes. That switching cost is the moat.
 
-2. **Continuous systems of action** — Software that requires ongoing maintenance, coordination, and updates retains value. These are not static tools. They are living systems that orchestrate work over time. AI can enhance them, but it doesn't replace them.
+2. **Continuous systems of action** — Software that requires ongoing maintenance, coordination, and updates retains value. These are not static tools. They are living systems that orchestrate work over time. AI can enhance them, but it doesn't replace them. Notion and Monday.com are clear examples: both have embedded AI into their core workflows rather than bolting it on. [Notion's AI agents](https://www.notion.com/releases/2024-09-25) now execute multi-step tasks autonomously. [Monday.com reported 112% net revenue retention](https://ir.monday.com/news-and-events/news-releases/news-details/2025/monday-com-Expands-AI-Powered-Agents-CRM-Suite-and-Enterprise-Grade-Capabilities/default.aspx) in Q1 2025 even as AI pressure intensified. Their value compounds with usage — AI makes them stickier, not weaker.
 
-3. **Network and distribution advantages** — Incumbents control distribution. That matters more than ever. They can ship AI-powered features faster than startups and immediately deploy them to millions of users. The technical gap is shrinking — but distribution remains asymmetric.
+3. **Network and distribution advantages** — Incumbents control distribution. That matters more than ever. They can ship AI-powered features faster than startups and immediately deploy them to millions of users. The technical gap is shrinking — but distribution remains asymmetric. HubSpot went from four AI agents at INBOUND 2024 to [over twenty Breeze Agents by 2025](https://huble.com/blog/hubspot-inbound-2025-key-product-updates), deployed across their entire customer base in a single product cycle. Salesforce launched Agentforce the same way. A startup cannot replicate that reach.
 
 ---
 
@@ -74,7 +78,7 @@ But distribution, conviction, and taste have not.
 
 This creates a new dynamic: an explosion of products with no real reason to exist.
 
-Many founders are now building because they can, not because they've understood the problem. The result is a wave of disposable software with no defensibility and no staying power.
+Many founders are now building because they can, not because they've understood the problem. The result is a wave of disposable software with no defensibility and no staying power. [Total software startup funding jumped 29% year-over-year to $125 billion in 2024](https://www.eleken.co/blog-posts/average-saas-growth-rate-brief-guide-for-startups) — more products, faster, most of them competing for the same shrinking pool of workflows that AI hasn't already absorbed.
 
 In this environment, failure is not just common — it's accelerated.
 
