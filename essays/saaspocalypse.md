@@ -8,7 +8,7 @@ description: AI isn't killing SaaS. It's killing the SaaS that never deserved to
 ---
 The "SaaS-pocalypse" narrative is right. It's just pointing at the wrong companies.
 
-[A16z](https://a16z.com/good-news-ai-will-eat-application-software/) and [Forrester](https://www.forrester.com/blogs/saas-as-we-know-it-is-dead-how-to-survive-the-saas-pocalypse/) both argue AI will commoditize all application software — coding agents replicate any feature on demand, seat-based pricing collapses, AI-native companies hollow out the entire SaaS layer. I think that's right in direction and wrong in scope.
+The standard argument — from [a16z](https://a16z.com/good-news-ai-will-eat-application-software/) to [Forrester](https://www.forrester.com/blogs/saas-as-we-know-it-is-dead-how-to-survive-the-saas-pocalypse/) — is that coding agents can replicate any feature on demand, so all application software eventually gets commoditized. I think that's right in direction and wrong in scope.
 
 AI isn't killing SaaS. It's killing *replaceable* SaaS. And most of that category never should have existed as a business.
 
@@ -16,15 +16,9 @@ AI isn't killing SaaS. It's killing *replaceable* SaaS. And most of that categor
 
 **The Utility SaaS Obituary**
 
-For years, thousands of small products thrived by solving one narrow problem inside a larger workflow.
+Extract tables from a PDF? Reformat data, clean CSVs, convert files? There were thousands of tools for all of it. They worked because building your own solution was too slow or too expensive. That's gone.
 
-Extract tables from a PDF into Excel? There was a tool. Reformat data, clean CSVs, convert files? There were tools for all of it.
-
-They worked because building your own solution was too slow, too expensive, or flat-out impossible. Non-developers had no other option.
-
-That's gone now.
-
-I've seen it firsthand building Char. Tasks that used to require a dedicated subscription — parsing structured data, transforming file formats, stitching together one-off automations — I now spin up with a coding agent in minutes. The tool runs once and disappears. No subscription, no onboarding, no recurring cost.
+Last month I wanted a quick read on Char's run rate — dropped a bank CSV into a coding agent and had a full financial breakdown in minutes. Before, that's a product category. Now it's a throwaway script.
 
 If your product exists solely to solve a narrow, one-off task, it's not a business anymore. It's a prompt.
 
@@ -32,11 +26,11 @@ If your product exists solely to solve a narrow, one-off task, it's not a busine
 
 **AI Doesn't Kill Products. It Kills Features.**
 
-Most people frame this wrong. AI doesn't commoditize *software* — it commoditizes *features*.
+AI doesn't commoditize *software* — it commoditizes *features*.
 
-A product that's just a wrapper around a single capability can now be replicated instantly by anyone with a laptop and a good prompt. There is no moat in a feature. There never was — AI just made that obvious.
+A product that's just a wrapper around a single capability can now be replicated by anyone with a laptop and a good prompt. There's no moat in a feature. There never was — AI just made that obvious.
 
-Companies already feel it. The average organization cut its SaaS app count by [18% between 2022 and 2024](https://www.bettercloud.com/monitor/saas-industry/), according to BetterCloud. The cuts aren't coming from platforms. They're coming from single-function tools that couldn't grow beyond their original use case.
+The average organization cut its SaaS app count by [18% between 2022 and 2024](https://www.bettercloud.com/monitor/saas-industry/), according to BetterCloud. The cuts are coming from single-function tools that never grew beyond one capability.
 
 If your product can't evolve or embed itself into a broader workflow, it's already dead. AI is just the autopsy.
 
@@ -44,25 +38,23 @@ If your product can't evolve or embed itself into a broader workflow, it's alrea
 
 **What Actually Survives**
 
-Not all SaaS is equally screwed.
-
 The ones that make it share one trait: they own workflows, not features.
 
-1. **Deep workflow integration** — Slack and Salesforce don't win on any single capability. They win because replacing them means ripping out entire systems, retraining teams, and rebuilding processes. The switching cost is the moat. AI can't dissolve that.
+1. **Deep workflow integration** — Slack and Salesforce don't win on any single capability. They win because replacing them means ripping out entire systems and retraining teams. The switching cost is the moat. AI can't dissolve that.
 
-2. **Continuous systems of action** — Software that requires ongoing coordination and updates compounds in value over time. Notion and Monday.com aren't static tools — they're living systems. They didn't bolt AI on as a feature; they embedded it into the core. [Notion's AI agents](https://www.notion.com/releases/2024-09-25) now execute multi-step workflows autonomously. [Monday.com hit 112% net revenue retention](https://ir.monday.com/news-and-events/news-releases/news-details/2025/monday-com-Expands-AI-Powered-Agents-CRM-Suite-and-Enterprise-Grade-Capabilities/default.aspx) in Q1 2025 under the same AI pressure that's killing point solutions. The more you use them, the harder they are to leave.
+2. **Continuous systems of action** — Software that requires ongoing coordination compounds in value over time. Notion and Monday.com aren't static tools — they're living systems that embedded AI into their core, not bolted it on as a feature. [Monday.com hit 112% net revenue retention](https://ir.monday.com/news-and-events/news-releases/news-details/2025/monday-com-Expands-AI-Powered-Agents-CRM-Suite-and-Enterprise-Grade-Capabilities/default.aspx) in Q1 2025 under the same AI pressure that's killing point solutions. The more you use them, the harder they are to leave.
 
-3. **Distribution at scale** — Incumbents can ship AI features to millions of users in a single product cycle. Startups can't touch that. HubSpot went from four AI agents to [over twenty Breeze Agents](https://huble.com/blog/hubspot-inbound-2025-key-product-updates) in less than a year, deployed instantly across their entire customer base. Salesforce did the same with Agentforce. The technical gap is closing — the distribution gap is not.
+3. **Distribution at scale** — Incumbents can ship AI features to millions of users in a single product cycle. HubSpot went from four AI agents to [over twenty](https://huble.com/blog/hubspot-inbound-2025-key-product-updates) in less than a year, deployed across their entire customer base. The technical gap is closing — the distribution gap is not.
 
 ---
 
 **More Products. More Casualties.**
 
-Here's the paradox: AI will produce *more* SaaS companies, and destroy more of them faster.
+AI will produce *more* SaaS companies, and destroy more of them faster.
 
-Building has never been cheaper. Anyone can ship. The problem is that distribution, conviction, and taste didn't get cheaper. Those are still hard. [Software startup funding jumped 29% year-over-year to $125 billion in 2024](https://www.eleken.co/blog-posts/average-saas-growth-rate-brief-guide-for-startups) — more products than ever, competing for the same shrinking pool of workflows AI hasn't absorbed yet.
+Building has never been cheaper. Distribution, conviction, and taste haven't. [Software startup funding jumped 29% year-over-year to $125 billion in 2024](https://www.eleken.co/blog-posts/average-saas-growth-rate-brief-guide-for-startups) — more products than ever, competing for the same shrinking pool of workflows AI hasn't absorbed yet.
 
-Most of those products will fail not because they're bad, but because they were built before the founders understood the problem. The speed of building now outpaces the speed of thinking. That's a different kind of failure than before — faster, quieter, and more common.
+Most will fail not because they're bad, but because they were built before the founders understood the problem.
 
 ---
 
@@ -70,11 +62,9 @@ Most of those products will fail not because they're bad, but because they were 
 
 Incumbents have distribution. They also have a structural problem: they can't move against themselves.
 
-They're slower to cannibalize existing revenue. They hesitate to collapse pricing, kill features, or redesign products that currently generate income. Every dollar of existing ARR is an anchor.
+They're slower to cannibalize existing revenue, hesitant to collapse pricing or kill features that currently generate income. Every dollar of existing ARR is an anchor.
 
-Startups don't carry that weight. They can move into the gaps incumbents are structurally unable to address — and right now those gaps are widening faster than incumbents can patch them.
-
-That's still the opening. It hasn't closed.
+Startups can move into the gaps incumbents are structurally unable to address — and those gaps are widening faster than incumbents can patch them. That's still the opening. It hasn't closed.
 
 ---
 
@@ -82,30 +72,26 @@ That's still the opening. It hasn't closed.
 
 Code quality is no longer the bottleneck. Speed is. And speed without feedback is just expensive guessing.
 
-Every piece of software I've shipped breaks in the real world — not because the logic was wrong, but because the environment is messier than any spec anticipates. Users behave unpredictably. Data is inconsistent. Edge cases are infinite.
+Every piece of software I've shipped breaks in the real world — not because the logic was wrong, but because the environment is messier than any spec anticipates. We built auto start/stop recording into Char — genuinely useful, one of those features users love until it breaks on them. Jabra headphones trigger it unexpectedly. Stopping to share your screen in Google Meet triggers it. Switching your mic to voice isolation mode in macOS triggers it. Each one is its own rabbit hole that you only find when a real user hits it in a real meeting.
 
-Building Char made this visceral. We shipped a feature we thought was solid, only to discover that real meeting transcripts contained speaker overlap patterns our logic had never seen. Those weren't bugs — they were the product. Each failure told us something about how people actually communicate that we couldn't have designed our way to.
+Because code generation is cheap, the temptation is to over-engineer before launching. Don't. Ship the smallest version that solves the core problem. Track where it breaks, not just usage metrics. Make one targeted change, then re-observe. Rebuilding from scratch resets your learning. Patching and watching compounds it.
 
-AI makes this trap worse. Because code generation is cheap, the temptation is to over-engineer before launching — to simulate edge cases in theory rather than encounter them in reality. Don't. The only way to find the real product is to put something real in front of real users.
-
-What that actually means:
-
-- **Launch**: Define the smallest version that solves the core problem, then ship before you feel ready. The discomfort is useful signal.
-- **Observe**: Track failure modes, not just usage metrics. Where does it break? What do users do that you didn't expect? That gap is the roadmap.
-- **Refine**: One targeted change, then re-observe. Rebuilding from scratch resets your learning. Patching and watching compounds it.
-
-SpaceX doesn't simulate rocket launches forever — they launch, watch what breaks, and fix it. In a world where software can be generated on demand, the only real advantage is learning faster than everyone else.
+SpaceX doesn't simulate rocket launches forever. They launch, watch what breaks, and fix it. The only real advantage left is learning faster than everyone else.
 
 ---
 
-**The Filter Is Already Running**
+**Good Software Always Prevails**
 
-The SaaS-pocalypse isn't an extinction event. It's a filter — and it's already running.
+If the SaaS model feels shaky for your business right now, you're asking the wrong question.
 
-Products that exist as isolated utilities are being quietly cut. Products that own workflows, accumulate context over time, and sit *inside* how work gets done will survive.
+The business model for software has always changed — from mainframe time-sharing to packaged software to subscriptions. The model is just the container. SaaS isn't sacred. Something will replace it.
 
-If you're building right now, I'd ask one question: does your product get harder to leave the longer someone uses it? Does it accumulate data, integrations, or context that compounds in value? Or does it solve one thing and stay there?
+But the question underneath has never changed: will your software keep getting better?
 
-If it's the latter — the filter is already running on you.
+Static software dies — not because of AI, not because of pricing pressure, but because software that stops evolving stops earning its place.
 
-AI doesn't kill SaaS. It just stops protecting the ones that never earned their place.
+So if you're worried about whether SaaS is the right model, flip the question. Ask whether your product will ever stop needing to improve. If the answer is yes — if there's a version you could ship and walk away from — you're building a tool, not a business, and the model doesn't matter anyway.
+
+If the answer is no, you're fine. The model will find you.
+
+Good software always prevails. That part hasn't changed.
