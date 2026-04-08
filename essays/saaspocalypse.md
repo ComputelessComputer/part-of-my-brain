@@ -1,129 +1,111 @@
 ---
-title: The SaaS-pocalypse Is Real — But It's Killing the Wrong Companies
+title: Most SaaS Is Already Dead. It Just Doesn't Know It Yet.
 created_at: 2026-03-24
-updated_at: 2026-03-24
+updated_at: 2026-04-08
 published: true
 lang: en
-description: The messy truth about why I rewrote Char. No product philosophy, too many pivots, motion without progress — and how I finally got focused.
+description: AI isn't killing SaaS. It's killing the SaaS that never deserved to exist in the first place.
 ---
-The "SaaS-pocalypse" narrative is directionally right — but misunderstood.
+The "SaaS-pocalypse" narrative is right. It's just pointing at the wrong companies.
 
-The dominant view — articulated by analysts at firms like [a16z](https://a16z.com/good-news-ai-will-eat-application-software/) and echoed by [Forrester](https://www.forrester.com/blogs/saas-as-we-know-it-is-dead-how-to-survive-the-saas-pocalypse/) — holds that AI will commoditize all application software. The argument: coding agents can replicate any feature on demand, seat-based pricing is collapsing, and AI-native companies will hollow out the entire SaaS layer. It's a compelling argument. But it's too broad.
+[A16z](https://a16z.com/good-news-ai-will-eat-application-software/) and [Forrester](https://www.forrester.com/blogs/saas-as-we-know-it-is-dead-how-to-survive-the-saas-pocalypse/) both argue AI will commoditize all application software — coding agents replicate any feature on demand, seat-based pricing collapses, AI-native companies hollow out the entire SaaS layer. I think that's right in direction and wrong in scope.
 
-AI isn't killing SaaS. It's killing replaceable SaaS.
-
-And most of that lives in a category that's been quietly exploding over the last few years: indie-built utility software.
+AI isn't killing SaaS. It's killing *replaceable* SaaS. And most of that category never should have existed as a business.
 
 ---
 
-**The Collapse of Utility SaaS**
+**The Utility SaaS Obituary**
 
-For years, small SaaS products thrived by solving narrow, acute problems inside massive workflows.
+For years, thousands of small products thrived by solving one narrow problem inside a larger workflow.
 
-Need to extract tables from a PDF into Excel? There was a tool for that.
+Extract tables from a PDF into Excel? There was a tool. Reformat data, clean CSVs, convert files? There were tools for all of it.
 
-Need to reformat data, clean CSVs, convert files, or automate one-off workflows? There were thousands of tools for that.
+They worked because building your own solution was too slow, too expensive, or flat-out impossible. Non-developers had no other option.
 
-These products worked because the alternative — building your own solution — was too expensive, too slow, or outright impossible for most users.
+That's gone now.
 
-That constraint is now gone.
+I've seen it firsthand building Char. Tasks that used to require a dedicated subscription — parsing structured data, transforming file formats, stitching together one-off automations — I now spin up with a coding agent in minutes. The tool runs once and disappears. No subscription, no onboarding, no recurring cost.
 
-With modern coding agents, users don't need to search for software to solve these problems. They can generate disposable tools on demand. The friction of building has collapsed to near zero for non-repetitive use cases.
-
-I've seen this firsthand building Char. Tasks that used to require finding and subscribing to a dedicated tool — parsing structured data, transforming file formats, handling one-off automation — I now generate with a coding agent in minutes. The tool runs once, solves the problem, and disappears. No subscription. No onboarding. No recurring cost.
-
-If a product exists solely to solve a narrow, one-off task, it no longer needs to exist as a business.
+If your product exists solely to solve a narrow, one-off task, it's not a business anymore. It's a prompt.
 
 ---
 
-**What AI Is Actually Destroying**
+**AI Doesn't Kill Products. It Kills Features.**
 
-The common belief is that AI will commoditize all software.
+Most people frame this wrong. AI doesn't commoditize *software* — it commoditizes *features*.
 
-The reality is more precise: AI commoditizes features, not products.
+A product that's just a wrapper around a single capability can now be replicated instantly by anyone with a laptop and a good prompt. There is no moat in a feature. There never was — AI just made that obvious.
 
-A product that is simply a wrapper around a single capability — no matter how useful — can now be replicated instantly. There is no defensibility in a feature that can be generated on demand.
+Companies already feel it. The average organization cut its SaaS app count by [18% between 2022 and 2024](https://www.bettercloud.com/monitor/saas-industry/), according to BetterCloud. The cuts aren't coming from platforms. They're coming from single-function tools that couldn't grow beyond their original use case.
 
-This is why so many "useful" products are quietly becoming obsolete.
-
-The data supports this. Companies reduced their average SaaS application count by [18% between 2022 and 2024](https://www.bettercloud.com/monitor/saas-industry/), according to BetterCloud — and the cuts aren't coming from platforms. They're coming from point solutions: single-function tools with limited surface area and no meaningful expansion path.
-
-If a product cannot evolve beyond its initial feature set — or integrate into a broader workflow — it is already dead. AI just accelerates the timeline.
+If your product can't evolve or embed itself into a broader workflow, it's already dead. AI is just the autopsy.
 
 ---
 
-**The SaaS Companies That Survive**
+**What Actually Survives**
 
-Not all SaaS companies are exposed equally.
+Not all SaaS is equally screwed.
 
-The ones that survive — and win — share a common trait: they own workflows, not features.
+The ones that make it share one trait: they own workflows, not features.
 
-There are three durable categories:
+1. **Deep workflow integration** — Slack and Salesforce don't win on any single capability. They win because replacing them means ripping out entire systems, retraining teams, and rebuilding processes. The switching cost is the moat. AI can't dissolve that.
 
-1. **Deep workflow integration** — Products embedded in daily operations are difficult to replace, even if individual features are replicable. Tools like Slack or Salesforce don't win because of any single capability. They win because they sit at the center of how work gets done. Replacing them requires ripping out entire systems, retraining teams, and reconfiguring processes. That switching cost is the moat.
+2. **Continuous systems of action** — Software that requires ongoing coordination and updates compounds in value over time. Notion and Monday.com aren't static tools — they're living systems. They didn't bolt AI on as a feature; they embedded it into the core. [Notion's AI agents](https://www.notion.com/releases/2024-09-25) now execute multi-step workflows autonomously. [Monday.com hit 112% net revenue retention](https://ir.monday.com/news-and-events/news-releases/news-details/2025/monday-com-Expands-AI-Powered-Agents-CRM-Suite-and-Enterprise-Grade-Capabilities/default.aspx) in Q1 2025 under the same AI pressure that's killing point solutions. The more you use them, the harder they are to leave.
 
-2. **Continuous systems of action** — Software that requires ongoing maintenance, coordination, and updates retains value. These are not static tools. They are living systems that orchestrate work over time. AI can enhance them, but it doesn't replace them. Notion and Monday.com are clear examples: both have embedded AI into their core workflows rather than bolting it on. [Notion's AI agents](https://www.notion.com/releases/2024-09-25) now execute multi-step tasks autonomously. [Monday.com reported 112% net revenue retention](https://ir.monday.com/news-and-events/news-releases/news-details/2025/monday-com-Expands-AI-Powered-Agents-CRM-Suite-and-Enterprise-Grade-Capabilities/default.aspx) in Q1 2025 even as AI pressure intensified. Their value compounds with usage — AI makes them stickier, not weaker.
-
-3. **Network and distribution advantages** — Incumbents control distribution. That matters more than ever. They can ship AI-powered features faster than startups and immediately deploy them to millions of users. The technical gap is shrinking — but distribution remains asymmetric. HubSpot went from four AI agents at INBOUND 2024 to [over twenty Breeze Agents by 2025](https://huble.com/blog/hubspot-inbound-2025-key-product-updates), deployed across their entire customer base in a single product cycle. Salesforce launched Agentforce the same way. A startup cannot replicate that reach.
+3. **Distribution at scale** — Incumbents can ship AI features to millions of users in a single product cycle. Startups can't touch that. HubSpot went from four AI agents to [over twenty Breeze Agents](https://huble.com/blog/hubspot-inbound-2025-key-product-updates) in less than a year, deployed instantly across their entire customer base. Salesforce did the same with Agentforce. The technical gap is closing — the distribution gap is not.
 
 ---
 
-**More SaaS, More Failure**
+**More Products. More Casualties.**
 
-Paradoxically, AI will lead to more SaaS companies being created — and more being destroyed.
+Here's the paradox: AI will produce *more* SaaS companies, and destroy more of them faster.
 
-The barrier to building has collapsed. Anyone can ship.
+Building has never been cheaper. Anyone can ship. The problem is that distribution, conviction, and taste didn't get cheaper. Those are still hard. [Software startup funding jumped 29% year-over-year to $125 billion in 2024](https://www.eleken.co/blog-posts/average-saas-growth-rate-brief-guide-for-startups) — more products than ever, competing for the same shrinking pool of workflows AI hasn't absorbed yet.
 
-But distribution, conviction, and taste have not.
-
-This creates a new dynamic: an explosion of products with no real reason to exist.
-
-Many founders are now building because they can, not because they've understood the problem. The result is a wave of disposable software with no defensibility and no staying power. [Total software startup funding jumped 29% year-over-year to $125 billion in 2024](https://www.eleken.co/blog-posts/average-saas-growth-rate-brief-guide-for-startups) — more products, faster, most of them competing for the same shrinking pool of workflows that AI hasn't already absorbed.
-
-In this environment, failure is not just common — it's accelerated.
+Most of those products will fail not because they're bad, but because they were built before the founders understood the problem. The speed of building now outpaces the speed of thinking. That's a different kind of failure than before — faster, quieter, and more common.
 
 ---
 
-**Why Startups Still Win**
+**Why Startups Still Win Anyway**
 
-Incumbents have distribution, but they also have constraints.
+Incumbents have distribution. They also have a structural problem: they can't move against themselves.
 
-They are slower to cannibalize existing revenue streams. They hesitate to collapse pricing, redesign products, or eliminate features that currently generate income.
+They're slower to cannibalize existing revenue. They hesitate to collapse pricing, kill features, or redesign products that currently generate income. Every dollar of existing ARR is an anchor.
 
-Startups don't have that problem.
+Startups don't carry that weight. They can move into the gaps incumbents are structurally unable to address — and right now those gaps are widening faster than incumbents can patch them.
 
-They can move aggressively, redefine categories, and rebuild products around new primitives. They fill the gaps incumbents are structurally unable to address.
-
-That asymmetry is why startups continue to win — even in a world where building is easier than ever.
+That's still the opening. It hasn't closed.
 
 ---
 
-**How This Changes How I Build**
+**How I Build Differently Now**
 
-Code quality is no longer the bottleneck. Speed is.
+Code quality is no longer the bottleneck. Speed is. And speed without feedback is just expensive guessing.
 
-The winning approach is to build quickly, test aggressively, and iterate based on real usage. Perfection is less valuable than momentum.
+Every piece of software I've shipped breaks in the real world — not because the logic was wrong, but because the environment is messier than any spec anticipates. Users behave unpredictably. Data is inconsistent. Edge cases are infinite.
 
-Even perfectly designed software breaks in the real world. Not because the logic is wrong — but because the environment is messy. Users behave unpredictably. Data is inconsistent. Edge cases are infinite.
+Building Char made this visceral. We shipped a feature we thought was solid, only to discover that real meeting transcripts contained speaker overlap patterns our logic had never seen. Those weren't bugs — they were the product. Each failure told us something about how people actually communicate that we couldn't have designed our way to.
 
-In fact, edge cases _are_ the product.
+AI makes this trap worse. Because code generation is cheap, the temptation is to over-engineer before launching — to simulate edge cases in theory rather than encounter them in reality. Don't. The only way to find the real product is to put something real in front of real users.
 
-You can't anticipate this upfront. Trying to engineer a "complete" system before launch is a losing strategy. The only way to build resilient products is to ship, observe failures, and continuously adapt.
+What that actually means:
 
-This is closer to how SpaceX operates than traditional SaaS. You don't simulate forever — you launch, observe, and refine.
+- **Launch**: Define the smallest version that solves the core problem, then ship before you feel ready. The discomfort is useful signal.
+- **Observe**: Track failure modes, not just usage metrics. Where does it break? What do users do that you didn't expect? That gap is the roadmap.
+- **Refine**: One targeted change, then re-observe. Rebuilding from scratch resets your learning. Patching and watching compounds it.
 
-In a world where software can be generated instantly, the only real advantage is learning faster than everyone else.
+SpaceX doesn't simulate rocket launches forever — they launch, watch what breaks, and fix it. In a world where software can be generated on demand, the only real advantage is learning faster than everyone else.
 
 ---
 
-**The Real Meaning of the SaaS-pocalypse**
+**The Filter Is Already Running**
 
-The SaaS-pocalypse is not an extinction event.
+The SaaS-pocalypse isn't an extinction event. It's a filter — and it's already running.
 
-It's a filter.
+Products that exist as isolated utilities are being quietly cut. Products that own workflows, accumulate context over time, and sit *inside* how work gets done will survive.
 
-Products that exist as isolated utilities will disappear. Products that own workflows, evolve continuously, and control distribution are what survive.
+If you're building right now, I'd ask one question: does your product get harder to leave the longer someone uses it? Does it accumulate data, integrations, or context that compounds in value? Or does it solve one thing and stay there?
 
-AI doesn't kill SaaS.
+If it's the latter — the filter is already running on you.
 
-It forces it to grow up.
+AI doesn't kill SaaS. It just stops protecting the ones that never earned their place.
