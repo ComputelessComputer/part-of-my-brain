@@ -1,83 +1,93 @@
 ---
-title: What Char is optimizing for
+title: Your meeting notes are a dead end
 created_at: 2026-04-09
 updated_at: 2026-04-09
 published: false
 lang: en
-description: We built a local-first meeting notetaker and then started making decisions that confused people who came for exactly that. Here's why.
+description: Transcripts don't carry anything forward. We're building the thing that does.
 ---
-A few days after I published [the last essay](https://johnjeong.com/essays/future-of-char), our Discord lit up. We'd quietly swapped our transcription provider — argmax parakeet to cactus's whisper v3 turbo — without a working replacement in hand. We also removed the live transcript view. People who had paid for months of Char, who had specifically chosen it because of on-device, no-cloud-audio promises, were rightfully pissed.
-
-One person summed it up well: *"You are essentially killing all local features."*
-
-That's not what we intended. But intentions don't matter when the outcome is a broken product with a description that still reads *"private, on-device AI notepad that enhances your own notes — without bots, cloud recording, or meeting intrusion."*
-
-So let me be direct about what happened, why we made these calls, and what we're actually optimizing for.
+I wrote about [where Char is heading](https://johnjeong.com/essays/future-of-char) and then about [the mistakes we made getting here](https://johnjeong.com/essays/lessons-from-shipping). This one is about the product itself.
 
 ---
 
-### The mistakes, plainly
+#### The problem nobody has a good tool for
 
-We replaced a working STT with one that wasn't working yet. That was bad judgment — full stop. There was no good reason not to keep argmax parakeet live while cactus stabilized. We moved too fast and created a week of broken transcription for users who depend on the app daily. We're sorry.
+Meeting notetakers are a solved category. Granola just [raised at $1.5B](https://www.granola.ai/blog/series-c). Otter, Fireflies, Fathom — they all do transcripts and summaries. The feature set is converging. Competing on transcript accuracy is a race to parity.
 
-We also removed the live transcript view without a feature toggle. The reason was real — some hardware couldn't handle real-time on-device inference without degrading — but the solution was lazy. A settings toggle solves that. Stripping the feature entirely was the wrong call, and we'll bring it back once the new provider stabilizes.
+But here's what I keep running into, personally, every day: the meeting ends and everything scatters. Three action items got spoken out loud. A design decision got made. Someone said "let's circle back on pricing." Then I open Slack, open Linear, open my notes app, and try to manually reconstruct what matters. Half of it lives in my head. Some of it I forget entirely.
 
-Those were execution mistakes. What I want to address separately is the *strategic* shift underneath them — because that's not a mistake, and I think it deserves a real explanation.
+I have a task manager, a notetaker, and a CRM. They don't talk to each other. My task manager doesn't know what was said in the meeting and my meeting notes don't reference last week's decisions. Every tool has a piece. No tool has context across all of them.
 
----
+The more meetings I take, the worse this gets. I spend a meaningful part of my day just triaging — organizing, remembering, routing. Not doing the actual work. Managing the meta-work around it. Even the most senior operators I know have someone managing this for them — a Chief of Staff, an EA. The rest of us just deal with it.
 
-### What we're not building
-
-When I wrote the last essay, I said the wedge wasn't meeting notetaking. Someone pushed back in the Discord:
-
-> "Your wedge into becoming the executive assistant for founders IS to be the best local meeting transcription tool. Without it, I would use an alternative path."
-
-It's a fair argument. And I thought about it seriously.
-
-Here's where I landed: there's a version of Char where we spend the next two years optimizing real-time on-device transcription across every chipset, every OS version, every audio configuration. It's a real product. It's useful. And I think tools like Meetily are better positioned to win that fight than we are — not because we can't build it, but because it's not what we're uniquely motivated to obsess over.
-
-Real-time local transcription solves a specific problem: you want to see words appear on screen during your meeting. The honest use case, per our research, is mostly reassurance that the app is listening — and catching up on parts of the meeting you zoned out of. That's real value. It's just not the value that unlocks the bigger thing we're building toward.
-
-What actually matters is: *after the meeting ends, does Char know what happened well enough to do something useful with it?*
-
-Batch processing — transcribing after the call is over — produces more accurate transcripts than real-time on-device inference on most hardware. It's quieter, less error-prone, and fits into a workflow where the important stuff happens post-meeting anyway. That's the foundation we need.
+The real question was never how to capture a meeting. It's who carries forward everything a meeting produces.
 
 ---
 
-### Local-first still means something
+#### What Char actually is
 
-We're not abandoning on-device transcription. It ships free, it always will, and the premise — that you can use Char without sending your audio to a cloud server — remains true.
+Char starts with meetings and ends with everything that flows from them. The core is the **daily note**.
 
-What changed is where we're allocating engineering attention. The cloud models unlocked by the paid plan are not a replacement for on-device; they're a different layer. Cloud gives us memory. Shared context. The ability to connect what happened in Tuesday's meeting to what someone asked in Thursday's. On-device gives you privacy and zero latency. Both matter. They serve different people in different moments.
+This didn't arrive fully formed. Yujong and I spent three weeks of working sessions building conviction around it. On March 21st we first discussed the daily note as the home screen — a "compass" for your day, with calendar events appearing as chips linked to real meetings. On March 23rd we dug into task ingestion — how items from Linear and GitHub could auto-surface, how email triage would work, how slash commands could let you pull in context. By March 31st we'd aligned on making it the actual home screen, with the existing sidebar declared redundant and the recording button embedded directly in the daily note. On April 2nd it crystallized: the daily note is the foundation for an autonomous "COO"-level assistant. April 6th, at our all-hands, the line that stuck: "Meeting notes is going to be a feature of Char, whereas before it was the product itself."
 
-For people who need a stable, reliable, real-time, private transcription experience above all else: Char is not your best option right now. I'd rather say that clearly than have you stay on a paid plan waiting for something we're not prioritizing.
+I built [Philo](https://philo.so) last year and became genuinely bullish on this idea. A daily note that evolves throughout your day doesn't feel like a tool. It feels like a surface that's just always there.
 
-For people who care about what flows *from* a meeting — tasks, decisions, context — we're building exactly for you.
+In Char, the daily note assembles itself. You finish a call and action items land in your daily note, not in a separate meetings tab. You work on your computer and Char logs what happened to your timeline, like [Openbird](https://openbird.vercel.app) but woven into the note itself. Quick thoughts go in the same place. Everything from that day, in one surface.
 
----
-
-### How we're prioritizing
-
-The vision I laid out in the last essay — EA, Chief of Staff, COO — is directionally right. But vision without a sequencing framework is just a mood board. Here's how we're actually thinking about what ships when:
-
-**First: the foundation has to work.** Sync is shipping in April. Folders after we migrate back to SQLite. These aren't exciting announcements, but broken or missing infrastructure makes every feature on top of it worse. We're paying down that debt before adding surface area.
-
-**Second: the daily note has to become the gravity well.** The daily note is where context accumulates — meeting notes, captured thoughts, surfaced tasks. If that's not compelling on its own, nothing downstream works. We're treating the daily note as the product right now, not a feature inside the product.
-
-**Third: agentic handoffs.** The Chief of Staff moment — where Char routes a spec to Cursor, flags a decision to a co-founder, drafts an email — requires the first two to be stable. We're not rushing it. When we ship it, it has to actually work.
-
-What's explicitly deprioritized: more transcription providers, advanced privacy configurations, integrations with tools we haven't validated matter to our users. We'll revisit, but not now.
+Over time it becomes your working memory — what you did, what you decided, what's still pending.
 
 ---
 
-### The wedge
+#### Why this isn't another notetaker
 
-So what's the wedge?
+A meeting notetaker gives you a record of what was said. Char gives you a system that remembers what was *decided*, connects it to what came before, and helps you act on it.
 
-Not real-time local transcription. Not privacy as a feature. Not being a cheaper Granola.
+Meeting notetakers optimize for capture — transcript accuracy, speaker detection, summary quality. We optimize for **continuity** — context carrying forward across days, across meetings, across people. That's a different product with a different architecture.
 
-The wedge is the daily note — and the claim that Char can be the thing you open at the start of your day and close at the end, with your whole context accumulated inside it. Meetings feed into it. Tasks surface from it. Over time, it becomes your working memory.
+This shift was deliberate. On March 27th, Yujong and I looked at the competitive landscape — Pocket ($26M ARR), Caret, Button, all arriving in one YC batch cycle — and agreed that transcription-only positioning is commoditized. On April 3rd we discussed how live transcripts have less value than live summaries, and that users we'd interviewed were fine with results arriving after the meeting. The transcript matters. But it's the input, not the output.
 
-That's the promise we're building toward. It's a harder thing to explain on a landing page than "on-device notetaker." But it's the only version of Char worth building.
+A power user in our Discord made the best case against this:
 
-We made some fumbles making this transition clear. The product got messy in a moment where clarity mattered most. I own that. What I'm trying to do now is make sure the direction is visible — not just in an essay, but in every decision we make about what ships and what waits.
+> *"I already have an executive assistant skill that gives me daily briefs via Claude Code. It reads through my emails, Slack messages, Jira, and Hyprnote transcripts and generates a task list. I can easily swap out any single tool in the chain."*
+
+Fair. You can DIY this. But every tool in that chain is stateless. Claude Code doesn't remember yesterday's brief and Jira doesn't know what was said in the meeting. The chain works once — it doesn't compound.
+
+Char's value isn't the daily note as a format. Anyone can write a daily note in Obsidian. The value is the context layer underneath. Tuesday's note has context from Monday's. Thursday's meeting note references a decision from Tuesday's. When you ask "what did we decide about pricing?" Char doesn't search a folder of markdown files — it traverses a graph of context that's been building for weeks.
+
+That's the piece you can't replicate by chaining disconnected tools. And when everyone on a team has their own daily note, those notes become a shared operating layer. Context flows between people and decisions leave a trail because the system remembers even when people don't.
+
+---
+
+#### How we're going to market this
+
+The product is harder to explain than "AI meeting notetaker." That was a clean pitch. "Command center powered by daily notes" is not.
+
+**Lead with meetings, not the daily note.** Meetings are where people feel the pain. That's what they're searching for. The pitch at the top of the funnel: *Char captures your meetings and turns them into action — not just notes.* Concrete enough to be interesting, familiar enough not to confuse.
+
+Once someone uses Char for their first meeting and sees action items show up in their daily note, the product sells the next step on its own. They don't need to understand the full vision on day one.
+
+**The activation moment is day two.** The first meeting is adoption. The second morning is retention. If someone opens Char the morning after their first recorded meeting and finds a daily note with yesterday's action items already there — context from the meeting, a sense that this thing remembers — that's the click.
+
+Most notetakers are session-based. You record, you get a summary, you leave. Char's bet is on *returning*. The daily note only works with continuity. Day one is useful. By the end of the first week, it's hard to leave.
+
+**The persona is the back-to-back founder — but I'll be honest, we're still narrowing this.** At our April 6th all-hands, Artem pushed back that "founders" is too broad as a target. He's right. Yujong reframed it: instead of locking in a single persona, define what Char will *not* do and who it will *not* serve. I don't have a clean answer yet.
+
+What I do know: the ideal user has 4+ meetings a day, no EA, and has given up on staying on top of things. Their calendar is a wall of color. They've tried task managers and notetakers and the actual problem — that everything is disconnected — was never solved. Whether that's a seed-stage founder, a senior PM, or a managing director at a consulting firm — I'm not sure yet. We'll learn by shipping and watching who retains.
+
+**Content is the channel.** I'm writing these essays because I think the most effective marketing for Char right now is showing our thinking publicly. Founders follow founders who think clearly about problems they share. If I can describe the problem well enough that people see themselves in it, the product pitch becomes obvious.
+
+We'll ship a public changelog, share process on Twitter, do short demo videos of the daily note in action. But the foundation is writing — because writing forces clarity, and clarity is what sells a product you can't screenshot.
+
+---
+
+#### What's next
+
+Cloud sync ships this month. SQLite migration and folders after that. These have been the blockers since March — Yujong and I have flagged SQLite as the single largest dependency in nearly every working session. Sync depends on it. Folders depend on it. The daily note depends on it. I'm not going to pretend this is a clean Phase 1 → Phase 2 → Phase 3 sequence. The reality is Phase 1 has been stuck, and we're now unsticking it.
+
+After that: the daily note as the entire product, not a feature inside the product. If people don't open Char in the morning because the daily note is the best way to start their day, nothing else we build matters.
+
+After that: agentic handoffs. You finish a meeting, action items surface, and Char routes them — spec to Cursor, design decision to your co-founder's daily note, follow-up email drafted for review. By the time you're in the next meeting, the work is already moving.
+
+There's also something we haven't talked about publicly yet: we've been exploring a hardware dongle for always-on meeting detection. The current system only responds to scheduled remote meetings, which means spontaneous in-person conversations — often the most important ones — get missed entirely. Yujong and I have spent multiple sessions on this: VAD-based activation, a two-tier mic strategy where the dongle acts as a sentinel and triggers the MacBook's higher-quality mic when speech is detected, minimal firmware, ~$20 BOM at 100 units. It's early — April for research, May for a first version. But if it works, it fills a real gap in the daily note's coverage.
+
+The wedge is the daily note. Everything else is downstream.
