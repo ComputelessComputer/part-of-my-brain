@@ -1,7 +1,7 @@
 ---
 title: Your meeting notes are a dead end
 created_at: 2026-04-09
-updated_at: 2026-04-09
+updated_at: 2026-04-10
 published: false
 lang: en
 description: Transcripts don't carry anything forward. We're building the thing that does.
