@@ -14,11 +14,11 @@ I wrote about [where Char is heading](https://johnjeong.com/essays/future-of-cha
 
 Meeting notetakers are a solved category. Granola just [raised at $1.5B](https://www.granola.ai/blog/series-c). Otter, Fireflies, Fathom — they all do transcripts and summaries. The feature set is converging. Competing on transcript accuracy is a race to parity.
 
-But here's what I keep running into, personally, every day: the meeting ends and everything scatters. Three action items got spoken out loud. A design decision got made. Someone said "let's circle back on pricing." Then I open Slack, open Linear, open my notes app, and try to manually reconstruct what matters. Half of it lives in my head. Some of it I forget entirely.
+But every day I hit the same thing: the meeting ends and everything scatters. Three action items got spoken out loud. A design decision got made. Someone said "let's circle back on pricing." Then I open Slack, open Linear, open my notes app, and try to manually reconstruct what matters. Half of it lives in my head. Some of it I forget entirely.
 
 I have a task manager, a notetaker, and a CRM. They don't talk to each other. My task manager doesn't know what was said in the meeting and my meeting notes don't reference last week's decisions. Every tool has a piece. No tool has context across all of them.
 
-The more meetings I take, the worse this gets. I spend a meaningful part of my day just triaging — organizing, remembering, routing. Not doing the actual work. Managing the meta-work around it. Even the most senior operators I know have someone managing this for them — a Chief of Staff, an EA. The rest of us just deal with it.
+The more meetings I take, the worse this gets. I spend hours every day just triaging — organizing, remembering, routing. Not the work itself, the meta-work around it. Even the most senior operators I know have someone managing this for them — a Chief of Staff, an EA. The rest of us just deal with it.
 
 The real question was never how to capture a meeting. It's who carries forward everything a meeting produces.
 
@@ -30,7 +30,7 @@ Char starts with meetings and ends with everything that flows from them. The cor
 
 This didn't arrive fully formed. Yujong and I spent three weeks of working sessions building conviction around it. On March 21st we first discussed the daily note as the home screen — a "compass" for your day, with calendar events appearing as chips linked to real meetings. On March 23rd we dug into task ingestion — how items from Linear and GitHub could auto-surface, how email triage would work, how slash commands could let you pull in context. By March 31st we'd aligned on making it the actual home screen, with the existing sidebar declared redundant and the recording button embedded directly in the daily note. On April 2nd it crystallized: the daily note is the foundation for an autonomous "COO"-level assistant. April 6th, at our all-hands, the line that stuck: "Meeting notes is going to be a feature of Char, whereas before it was the product itself."
 
-I built [Philo](https://philo.so) last year and became genuinely bullish on this idea. A daily note that evolves throughout your day doesn't feel like a tool. It feels like a surface that's just always there.
+I built [Philo](https://philo.so) last year and became bullish on this idea. A daily note that evolves throughout your day doesn't feel like a tool. It feels like a surface that's just always there.
 
 In Char, the daily note assembles itself. You finish a call and action items land in your daily note, not in a separate meetings tab. You work on your computer and Char logs what happened to your timeline, like [Openbird](https://openbird.vercel.app) but woven into the note itself. Quick thoughts go in the same place. Everything from that day, in one surface.
 
@@ -44,7 +44,7 @@ A meeting notetaker gives you a record of what was said. Char gives you a system
 
 Meeting notetakers optimize for capture — transcript accuracy, speaker detection, summary quality. We optimize for **continuity** — context carrying forward across days, across meetings, across people. That's a different product with a different architecture.
 
-This shift was deliberate. On March 27th, Yujong and I looked at the competitive landscape — Pocket ($26M ARR), Caret, Button, all arriving in one YC batch cycle — and agreed that transcription-only positioning is commoditized. On April 3rd we discussed how live transcripts have less value than live summaries, and that users we'd interviewed were fine with results arriving after the meeting. The transcript matters. But it's the input, not the output.
+On March 27th, Yujong and I looked at the competitive landscape — Pocket ($26M ARR), Caret, Button, all arriving in one YC batch cycle — and agreed that transcription-only positioning is commoditized. On April 3rd we discussed how live transcripts have less value than live summaries, and that users we'd interviewed were fine with results arriving after the meeting. The transcript matters. But it's the input, not the output.
 
 A power user in our Discord made the best case against this:
 
@@ -54,7 +54,29 @@ Fair. You can DIY this. But every tool in that chain is stateless. Claude Code d
 
 Char's value isn't the daily note as a format. Anyone can write a daily note in Obsidian. The value is the context layer underneath. Tuesday's note has context from Monday's. Thursday's meeting note references a decision from Tuesday's. When you ask "what did we decide about pricing?" Char doesn't search a folder of markdown files — it traverses a graph of context that's been building for weeks.
 
-That's the piece you can't replicate by chaining disconnected tools. And when everyone on a team has their own daily note, those notes become a shared operating layer. Context flows between people and decisions leave a trail because the system remembers even when people don't.
+That's the piece you can't replicate by chaining disconnected tools.
+
+---
+
+#### What it looks like — and what it actually is
+
+From the outside, Char is a timeline-based notetaking app. You open it, you see a page. You type, you take meetings, you jot things down. Integrations and automations are batteries included — not plugins you configure, just things that happen.
+
+Char looks like a notepad. It's actually an agent that reads your mind.
+
+Underneath, a system reads your context across every stream it touches — meetings, screen activity, tasks, emails, calendar — and infers what matters. The daily note is a trojan horse for context capture. People want to write on it, and the writing is the data. You give someone a page they want to use, and using it feeds the system everything it needs.
+
+It's also bundled with a CLI, which makes it just as native for AI agents as it is for humans. A person opens the GUI and types. An agent calls the CLI and reads. Same data, two interfaces.
+
+---
+
+#### How it compounds
+
+One person starts using Char. Daily notes, meetings, quick thoughts. The AI connects what you said at 10am to what someone emailed at 3pm, surfaces the follow-up you forgot about. You start relying on it.
+
+Then you bring in your team. Everyone gets their own daily note. The AI now sees across all of them — triaging, routing decisions, flagging what's blocked. It stops being a personal tool and becomes shared infrastructure.
+
+That's where it gets hard to leave. A solo daily note is replaceable — anyone can build one. But once the AI is managing context between people, removing it means losing months of accumulated organizational memory. That's not a feature. That's a foundation.
 
 ---
 
