@@ -1,8 +1,10 @@
 ---
 title: Tombstone
 created_at: 2024-01-15
-updated_at: 2026-04-06
+updated_at: 2026-04-12
 published: true
+tags:
+  - philosophy
 lang: en
 description: A customized life plan, written in reverse.
 ---

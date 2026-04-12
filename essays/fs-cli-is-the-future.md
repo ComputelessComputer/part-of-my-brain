@@ -1,8 +1,11 @@
 ---
 title: File System and CLI Is the Future Interface of AI-Native Products
 created_at: 2026-02-22
-updated_at: 2026-02-22
+updated_at: 2026-04-12
 published: true
+tags:
+  - engineering
+  - ai
 lang: en
 description: Why the best interface for AI-native products might not be a modern UI — it might be the file system and CLI. A reflection on building aipm and what clicked.
 ---

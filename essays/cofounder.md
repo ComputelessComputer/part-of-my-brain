@@ -1,8 +1,10 @@
 ---
 title: How to find a cofounder
 created_at: 2026-03-29
-updated_at: 2026-04-09
+updated_at: 2026-04-12
 published: false
+tags:
+  - startup
 lang: en
 description:
 ---

@@ -1,8 +1,10 @@
 ---
 title: Artist
 created_at: 2024-01-29
-updated_at: 2024-01-29
+updated_at: 2026-04-12
 published: true
+tags:
+  - philosophy
 lang: en
 description: We should all aim to become artists, pursuing meaningful callings over mundane existence and writing the most interesting story of our lives.
 ---

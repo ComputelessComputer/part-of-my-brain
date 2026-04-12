@@ -1,8 +1,10 @@
 ---
 title: Customize your terminal
 created_at: 2026-02-05
-updated_at: 2026-04-06
+updated_at: 2026-04-12
 published: true
+tags:
+  - engineering
 lang: en
 description: Your terminal is the most-opened app you have. Here's why it should feel like yours.
 ---

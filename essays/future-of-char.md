@@ -1,8 +1,10 @@
 ---
 title: Char is not a meeting notetaker
 created_at: 2026-03-29
-updated_at: 2026-04-01
+updated_at: 2026-04-12
 published: true
+tags:
+  - startup
 lang: en
 description: The real question was never how you capture a meeting. It was what happens to everything that flows from it.
 ---

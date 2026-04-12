@@ -1,7 +1,11 @@
 ---
 title: I Built an Open Source Alternative to Logseq
 created_at: 2026-03-02
+updated_at: 2026-04-12
 published: true
+tags:
+  - engineering
+  - memory
 lang: en
 description: Why I built an open source alternative to Logseq, tracking daily notes in plain files with no lock-in.
 ---

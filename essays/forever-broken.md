@@ -1,8 +1,10 @@
 ---
 title: Your software will always be flawed
 created_at: 2026-04-04
-updated_at: 2026-04-04
+updated_at: 2026-04-12
 published: false
+tags:
+  - engineering
 lang: en
 description:
 ---

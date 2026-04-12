@@ -1,10 +1,12 @@
 ---
 title: The Post-YC Slump
 created_at: 2025-11-22
+updated_at: 2026-04-12
 published: true
+tags:
+  - startup
 lang: en
 description: How Yujong and I avoided the post-YC slump by learning to distinguish between real progress and empty momentum. On saying no, clear thinking, and focusing on what actually matters.
-updated_at: 2026-04-03
 ---
 Post‑YC slump is something I'm trying to avoid at all costs.
 

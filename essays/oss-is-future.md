@@ -1,8 +1,11 @@
 ---
 title: The Codebase Is No Longer a Moat
 created_at: 2025-11-30
-updated_at: 2025-11-30
+updated_at: 2026-04-12
 published: true
+tags:
+  - oss
+  - ai
 lang: en
 description: AI has changed the economics of building software. Code is no longer scarce — taste, execution, and trust are. Why transparency is becoming the real competitive advantage.
 ---

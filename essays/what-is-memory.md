@@ -1,8 +1,10 @@
 ---
 title: Memory for humans and agents
 created_at: 2026-04-10
-updated_at: 2026-04-10
+updated_at: 2026-04-12
 published: true
+tags:
+  - memory
 lang: en
 description: The only way to solve memory is to stop asking humans to manage it themselves.
 ---
@@ -22,7 +24,7 @@ I think there are two kinds of memory that work very differently.
 
 **Short-term memory is a timeline.** What happened today — meetings, tasks, ideas, things I jotted down. It's episodic. It mirrors how I actually think: linearly, in the order things happened. A daily note is the best representation of this. No categories, no tags — just a trace of the day.
 
-I built [Philo](essays/oss-alternative-logseq) around this idea last year and became genuinely convinced. A daily note that evolves throughout your day doesn't feel like a tool. It feels like a surface that's just there. That's now the foundation of what we're building at [Char](https://char.com) — your daily note assembles itself from meetings, activity, and whatever you want to capture.
+I built [Philo](essays/philo) around this idea last year and became genuinely convinced. A daily note that evolves throughout your day doesn't feel like a tool. It feels like a surface that's just there. That's now the foundation of what we're building at [Char](https://char.com) — your daily note assembles itself from meetings, activity, and whatever you want to capture.
 
 **Long-term memory is a wiki.** The accumulated knowledge from all those days — decisions made, lessons learned, people I've met, things I believe. It's structured, relational, meant to be traversed rather than scrolled. A directory tree can hold it. A graph can represent the connections between its pieces. Your personal Wikipedia, built from everything you've ever thought was worth keeping.
 

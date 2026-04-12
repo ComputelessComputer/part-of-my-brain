@@ -1,8 +1,11 @@
 ---
 title: Humans are bad at work
 created_at: 2026-04-04
-updated_at: 2026-04-10
+updated_at: 2026-04-12
 published: false
+tags:
+  - ai
+  - startup
 lang: en
 description:
 ---

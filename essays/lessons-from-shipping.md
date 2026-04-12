@@ -1,18 +1,22 @@
 ---
 title: We shipped 21 versions and broke trust
 created_at: 2026-04-09
-updated_at: 2026-04-09
+updated_at: 2026-04-12
 published: true
+tags:
+  - startup
 lang: en
 description: We moved fast for three months and lost our earliest users in the process. Five mistakes I won't repeat.
 ---
+![](Pasted%20image%2020260412092919.png)
+
 Between January and April we shipped 21 versions of Char. Rebuilt the storage layer, renamed the product, swapped transcription providers, redesigned the editor, added three calendar integrations. Most of it worked. Five things didn't.
 
 ---
 
 ### 1. Swapping the storage layer mid-flight
 
-**What we did.** In January we replaced our SQLite storage with JSON and markdown-based persisters. I was genuinely convicted about this — I [wrote a whole essay](https://johnjeong.com/essays/fs-cli-is-the-future) arguing that the file system and CLI are the right interface for AI-native products. I'd been building [Philo](https://philo.so), an [open-source daily notes app](https://johnjeong.com/essays/oss-alternative-logseq), with plain markdown files, and Claude Code could read and write to it with zero setup. No API, no auth, no SDK. That experience made me believe flat files were right for Char too.
+**What we did.** In January we replaced our SQLite storage with JSON and markdown-based persisters. I was genuinely convicted about this — I [wrote a whole essay](https://johnjeong.com/essays/fs-cli-is-the-future) arguing that the file system and CLI are the right interface for AI-native products. I'd been building [Philo](https://philo.so), an [open-source daily notes app](https://johnjeong.com/essays/philo), with plain markdown files, and Claude Code could read and write to it with zero setup. No API, no auth, no SDK. That experience made me believe flat files were right for Char too.
 
 **What went wrong.** Char isn't a vault of markdown files. It's an application with structured data, relationships between entities, and operations that need to be atomic. Once you have a comprehensive CRUD layer that abstracts the app, you don't need the file system to be the source of truth. The abstraction *is* the interface. Files just add indirection.
 

@@ -1,8 +1,10 @@
 ---
 title: Why I Burned It Down
 created_at: 2025-11-10
-updated_at: 2025-11-10
+updated_at: 2026-04-12
 published: false
+tags:
+  - startup
 lang: en
 description: The messy truth about why I rewrote Char. No product philosophy, too many pivots, motion without progress — and how I finally got focused.
 ---

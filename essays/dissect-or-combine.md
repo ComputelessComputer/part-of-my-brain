@@ -1,8 +1,11 @@
 ---
 title:
 created_at: 2026-04-10
-updated_at: 2026-04-10
+updated_at: 2026-04-12
 published: false
+tags:
+  - startup
+  - ai
 lang: en
 description:
 ---

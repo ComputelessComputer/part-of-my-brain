@@ -1,8 +1,10 @@
 ---
 title: Will AI really replace humans?
 created_at: 2026-04-04
-updated_at: 2026-04-07
+updated_at: 2026-04-12
 published: false
+tags:
+  - ai
 lang: en
 description:
 ---

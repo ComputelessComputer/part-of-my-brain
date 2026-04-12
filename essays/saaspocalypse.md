@@ -1,8 +1,11 @@
 ---
 title: Most SaaS Is Already Dead. It Just Doesn't Know It Yet.
 created_at: 2026-03-24
-updated_at: 2026-04-08
+updated_at: 2026-04-12
 published: true
+tags:
+  - startup
+  - ai
 lang: en
 description: AI isn't killing SaaS. It's killing the SaaS that never deserved to exist in the first place.
 ---
