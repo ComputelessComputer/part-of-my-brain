@@ -8,7 +8,7 @@ tags:
 lang: en
 description: Transcripts don't carry anything forward. We're building the thing that does.
 ---
-I wrote about [where Char is heading](essays/future-of-char) and then about [the mistakes we made getting here](essays/lessons-from-shipping). This one is about the product itself.
+I wrote about [where Char is heading](future-of-char) and then about [the mistakes we made getting here](lessons-from-shipping). This one is about the product itself.
 
 ---
 
@@ -32,7 +32,7 @@ Char starts with meetings and ends with everything that flows from them. The cor
 
 This didn't arrive fully formed. Yujong and I spent three weeks of working sessions building conviction around it. On March 21st we first discussed the daily note as the home screen — a "compass" for your day, with calendar events appearing as chips linked to real meetings. On March 23rd we dug into task ingestion — how items from Linear and GitHub could auto-surface, how email triage would work, how slash commands could let you pull in context. By March 31st we'd aligned on making it the actual home screen, with the existing sidebar declared redundant and the recording button embedded directly in the daily note. On April 2nd it crystallized: the daily note is the foundation for an autonomous "COO"-level assistant. April 6th, at our all-hands, the line that stuck: "Meeting notes is going to be a feature of Char, whereas before it was the product itself."
 
-I built [Philo](essays/philo) last year and became bullish on this idea. A daily note that evolves throughout your day doesn't feel like a tool. It feels like a surface that's just always there.
+I built [Philo](philo) last year and became bullish on this idea. A daily note that evolves throughout your day doesn't feel like a tool. It feels like a surface that's just always there.
 
 In Char, the daily note assembles itself. You finish a call and action items land in your daily note, not in a separate meetings tab. You work on your computer and Char logs what happened to your timeline, like [Openbird](https://openbird.vercel.app) but woven into the note itself. Quick thoughts go in the same place. Everything from that day, in one surface.
 

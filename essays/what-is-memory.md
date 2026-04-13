@@ -24,7 +24,7 @@ I think there are two kinds of memory that work very differently.
 
 **Short-term memory is a timeline.** What happened today — meetings, tasks, ideas, things I jotted down. It's episodic. It mirrors how I actually think: linearly, in the order things happened. A daily note is the best representation of this. No categories, no tags — just a trace of the day.
 
-I built [Philo](essays/philo) around this idea last year and became genuinely convinced. A daily note that evolves throughout your day doesn't feel like a tool. It feels like a surface that's just there. That's now the foundation of what we're building at [Char](https://char.com) — your daily note assembles itself from meetings, activity, and whatever you want to capture.
+I built [Philo](philo) around this idea last year and became genuinely convinced. A daily note that evolves throughout your day doesn't feel like a tool. It feels like a surface that's just there. That's now the foundation of what we're building at [Char](https://char.com) — your daily note assembles itself from meetings, activity, and whatever you want to capture.
 
 **Long-term memory is a wiki.** The accumulated knowledge from all those days — decisions made, lessons learned, people I've met, things I believe. It's structured, relational, meant to be traversed rather than scrolled. A directory tree can hold it. A graph can represent the connections between its pieces. Your personal Wikipedia, built from everything you've ever thought was worth keeping.
 
@@ -44,7 +44,7 @@ I won't. The system starts clean. I follow it for two weeks. Then a busy day hit
 
 This isn't a willpower problem. It's a design problem. These systems ask humans to do what humans are structurally bad at — maintaining order across thousands of small decisions, with no immediate reward for doing so.
 
-I [wrote about this before](essays/future-of-char): humans are naturally poor at managing complexity. Even the most senior operators have someone managing things for them — a Chief of Staff, an EA. The higher the expected output, the more support required.
+I [wrote about this before](future-of-char): humans are naturally poor at managing complexity. Even the most senior operators have someone managing things for them — a Chief of Staff, an EA. The higher the expected output, the more support required.
 
 If that's true for executives, it's true for your notes.
 
