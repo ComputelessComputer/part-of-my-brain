@@ -1,14 +1,16 @@
 ---
 title: Your meeting notes are a dead end
 created_at: 2026-04-09
-updated_at: 2026-04-12
-published: false
+updated_at: 2026-04-13
+published: true
 tags:
   - startup
 lang: en
 description: Transcripts don't carry anything forward. We're building the thing that does.
 ---
 I wrote about [where Char is heading](future-of-char) and then about [the mistakes we made getting here](lessons-from-shipping). This one is about the product itself.
+
+*This is where we're headed, not where we are today. Char is still in active development.*
 
 ---
 
@@ -30,11 +32,13 @@ The real question was never how to capture a meeting. It's who carries forward e
 
 Char starts with meetings and ends with everything that flows from them. The core is the **daily note**.
 
-This didn't arrive fully formed. Yujong and I spent three weeks of working sessions building conviction around it. On March 21st we first discussed the daily note as the home screen — a "compass" for your day, with calendar events appearing as chips linked to real meetings. On March 23rd we dug into task ingestion — how items from Linear and GitHub could auto-surface, how email triage would work, how slash commands could let you pull in context. By March 31st we'd aligned on making it the actual home screen, with the existing sidebar declared redundant and the recording button embedded directly in the daily note. On April 2nd it crystallized: the daily note is the foundation for an autonomous "COO"-level assistant. April 6th, at our all-hands, the line that stuck: "Meeting notes is going to be a feature of Char, whereas before it was the product itself."
+This didn't arrive fully formed. Yujong and I spent three weeks of working sessions building conviction around it. On March 21st we first discussed the daily note as the home screen — a "compass" for your day, with calendar events appearing as chips linked to real meetings. Two days later we dug into task ingestion — how items from Linear and GitHub could auto-surface, how email triage would work, how slash commands could let you pull in context.
+
+By March 31st we'd aligned on making it the actual home screen, with the existing sidebar declared redundant and the recording button embedded directly in the daily note. April 2nd it crystallized: the daily note is the foundation for an autonomous "COO"-level assistant. At our all-hands four days later, the line that stuck: "Meeting notes is going to be a feature of Char, whereas before it was the product itself."
 
 I built [Philo](philo) last year and became bullish on this idea. A daily note that evolves throughout your day doesn't feel like a tool. It feels like a surface that's just always there.
 
-In Char, the daily note assembles itself. You finish a call and action items land in your daily note, not in a separate meetings tab. You work on your computer and Char logs what happened to your timeline, like [Openbird](https://openbird.vercel.app) but woven into the note itself. Quick thoughts go in the same place. Everything from that day, in one surface.
+In Char, the daily note assembles itself. You finish a call and action items land in your daily note, not in a separate meetings tab. You work on your computer and Char logs what happened to your timeline, like [Openbird](openbird) but woven into the note itself. Quick thoughts go in the same place. Everything from that day, in one surface.
 
 Over time it becomes your working memory — what you did, what you decided, what's still pending.
 
@@ -46,11 +50,11 @@ A meeting notetaker gives you a record of what was said. Char gives you a system
 
 Meeting notetakers optimize for capture — transcript accuracy, speaker detection, summary quality. We optimize for **continuity** — context carrying forward across days, across meetings, across people. That's a different product with a different architecture.
 
-On March 27th, Yujong and I looked at the competitive landscape — Pocket ($26M ARR), Caret, Button, all arriving in one YC batch cycle — and agreed that transcription-only positioning is commoditized. On April 3rd we discussed how live transcripts have less value than live summaries, and that users we'd interviewed were fine with results arriving after the meeting. The transcript matters. But it's the input, not the output.
+On March 27th, Yujong and I looked at the competitive landscape — [Pocket](https://www.ycombinator.com/companies/pocket), [Caretta](https://www.ycombinator.com/companies/caretta), [Button](https://www.ycombinator.com/companies/button-computer), all arriving in one YC batch with transcription baked in but none of them selling it as the product — and agreed that transcription-only positioning is commoditized. On April 3rd we discussed how live transcripts have less value than live summaries, and that users we'd interviewed were fine with results arriving after the meeting. The transcript matters. But it's the input, not the output.
 
 A power user in our Discord made the best case against this:
 
-> *"I already have an executive assistant skill that gives me daily briefs via Claude Code. It reads through my emails, Slack messages, Jira, and Hyprnote transcripts and generates a task list. I can easily swap out any single tool in the chain."*
+> *"I already have an executive assistant skill that gives me daily briefs via Claude Code. It reads through my emails, Slack messages, Jira, and Hyprnote (our former name) transcripts and generates a task list. I can easily swap out any single tool in the chain."*
 
 Fair. You can DIY this. But every tool in that chain is stateless. Claude Code doesn't remember yesterday's brief and Jira doesn't know what was said in the meeting. The chain works once — it doesn't compound.
 
@@ -66,7 +70,7 @@ From the outside, Char is a timeline-based notetaking app. You open it, you see 
 
 Char looks like a notepad. It's actually an agent that reads your mind.
 
-Underneath, a system reads your context across every stream it touches — meetings, screen activity, tasks, emails, calendar — and infers what matters. The daily note is a trojan horse for context capture. People want to write on it, and the writing is the data. You give someone a page they want to use, and using it feeds the system everything it needs.
+Underneath, a system reads your context across every stream it touches — meetings, screen activity, tasks, emails, calendar — and infers what matters. The daily note is a trojan horse for context capture. People want to write on it, and the writing is the data.
 
 It's also bundled with a CLI, which makes it just as native for AI agents as it is for humans. A person opens the GUI and types. An agent calls the CLI and reads. Same data, two interfaces.
 
@@ -84,7 +88,7 @@ That's where it gets hard to leave. A solo daily note is replaceable — anyone 
 
 #### How we're going to market this
 
-The product is harder to explain than "AI meeting notetaker." That was a clean pitch. "Command center powered by daily notes" is not.
+The product is harder to explain than "AI meeting notetaker". That was a clean pitch. "Command center powered by daily notes" is not.
 
 **Lead with meetings, not the daily note.** Meetings are where people feel the pain. That's what they're searching for. The pitch at the top of the funnel: *Char captures your meetings and turns them into action — not just notes.* Concrete enough to be interesting, familiar enough not to confuse.
 
@@ -114,4 +118,4 @@ After that: agentic handoffs. You finish a meeting, action items surface, and Ch
 
 There's also something we haven't talked about publicly yet: we've been exploring a hardware dongle for always-on meeting detection. The current system only responds to scheduled remote meetings, which means spontaneous in-person conversations — often the most important ones — get missed entirely. Yujong and I have spent multiple sessions on this: VAD-based activation, a two-tier mic strategy where the dongle acts as a sentinel and triggers the MacBook's higher-quality mic when speech is detected, minimal firmware, ~$20 BOM at 100 units. It's early — April for research, May for a first version. But if it works, it fills a real gap in the daily note's coverage.
 
-The wedge is the daily note. Everything else is downstream.
+The wedge is the daily note. Everything else is downstream. The endgame isn't a notetaking app — it's the memory layer for you, your team, and every agent working on your behalf.

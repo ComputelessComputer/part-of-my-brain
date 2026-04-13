@@ -25,3 +25,5 @@ But that's fine. Your work should first resonate with you. Ideas may sprout from
 If everyone tapped into their inner artist, the world would overflow with rich stories — far more exciting than the fleeting show‑off of bodies or wealth online. It would be calmer, more beautiful, and more thoughtful.
 
 The world needs art.
+
+![](71IJ+xybqIL._AC_UF1000,1000_QL80_.jpg)
