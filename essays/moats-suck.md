@@ -8,6 +8,8 @@ tags:
 lang: en
 description: Early-stage founders obsess over moats. They should obsess over meaning instead.
 ---
+![](john_jeong_8-bit_pixel_art_a_small_open-air_workshop_on_a_hil_9fde33e4-f822-4b69-9db8-db40730fad42_2.png)
+
 I keep hearing early-stage founders talk about building structural moats from day one. Defensibility. Distribution lock-in. All the vocabulary you pick up from reading strategy posts instead of talking to users.
 
 I think this is one of the most misleading instincts in startups. I spent six months learning that the hard way.
