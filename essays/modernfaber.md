@@ -1,5 +1,5 @@
 ---
-title: Craftsmanship is lost
+title: Seek for fellow fabers
 created_at: 2026-04-04
 updated_at: 2026-04-12
 published: false
