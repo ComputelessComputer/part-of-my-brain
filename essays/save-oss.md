@@ -1,7 +1,7 @@
 ---
 title: Open source is being poisoned
-created_at: 2026-03-29
-updated_at: 2026-04-12
+created_at:
+updated_at:
 published: false
 tags:
   - oss

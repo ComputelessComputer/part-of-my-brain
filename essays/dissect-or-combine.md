@@ -1,7 +1,7 @@
 ---
 title:
-created_at: 2026-04-10
-updated_at: 2026-04-12
+created_at:
+updated_at:
 published: false
 tags:
   - startup

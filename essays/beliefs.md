@@ -1,7 +1,7 @@
 ---
 title: What I believe in life
-created_at: 2023-10-08
-updated_at: 2026-04-12
+created_at:
+updated_at:
 published: false
 tags:
   - philosophy

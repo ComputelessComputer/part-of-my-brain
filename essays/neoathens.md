@@ -1,7 +1,7 @@
 ---
 title: San Francisco is the new Athens
-created_at: 2026-04-04
-updated_at: 2026-04-12
+created_at:
+updated_at:
 published: false
 tags:
   - philosophy

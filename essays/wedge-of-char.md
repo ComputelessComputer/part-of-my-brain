@@ -1,13 +1,15 @@
 ---
-title: Your meeting notes are a dead end
+title: Char is the daily note
 created_at: 2026-04-09
 updated_at: 2026-04-13
 published: true
 tags:
   - startup
 lang: en
-description: Transcripts don't carry anything forward. We're building the thing that does.
+description: A meeting notetaker gives you a record of what was said. Char gives you a system that remembers what was decided — and connects it to what came next.
 ---
+![](john_jeong_8-bit_pixel_art_a_small_warmly-lit_library-worksho_a3314513-7320-44ea-83d9-36fd861270c1_0.png)
+
 I wrote about [where Char is heading](future-of-char) and then about [the mistakes we made getting here](lessons-from-shipping). This one is about the product itself.
 
 *This is where we're headed, not where we are today. Char is still in active development.*

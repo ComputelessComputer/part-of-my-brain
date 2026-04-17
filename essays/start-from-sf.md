@@ -6,7 +6,7 @@ published: true
 tags:
   - product
 lang: en
-description:
+description: If you're building software and want US customers eventually, you have to start in SF. The early adopters are here.
 ---
 If anyone building a product outside the US thinks they’ll eventually expand here — you’re not going to make it.
 
