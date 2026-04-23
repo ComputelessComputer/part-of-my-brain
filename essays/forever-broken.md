@@ -34,3 +34,11 @@ We are entrepreneurs, artisans, and working on [Char](https://char.com) together
 You might wonder how I was able to found a startup together with Yujong — this is a whole new topic that we can talk about [later](cofounder).
 
 Writing code has never been easier than before, but it doesn't mean that software is easy to build. Software is just one way to solve a business problem — unfortunately the world is fully of them. What's interesting when you solve someone's problem is they keep coming up with new problems. Also, software has multiple dependencies resulting in new issues all the time. Finally, and most importantly, you can never come up with every possible scenario that someone can run into.
+
+--
+
+What comes through the software is that no matter how concrete your logic may be, at the end of the day, something's going to be broken. That's just how the world works. And no matter how you try to try hard not to patch things up, there are going to be edge cases that appear if you haven't thought about it.
+
+That's the whole reason why you try to actually launch fast as well as learn from the mistakes and patch things up in all the ways. It's really hard to do that. I guess once you get kind of go into a certain skill, but as—sorry about this—the most early stages of the software, when it's just way too premature, you don't actually have to care much about that.
+
+You will definitely sometimes break something in them, but the more valuable thing that you actually learned is you'll be able to discover things that you and your team weren't able to discover when you guys were only using. 
