@@ -1,44 +1,33 @@
 ---
-title: Your software will always be flawed
-created_at:
-updated_at:
-published: false
+title: Finished software is dead software
+created_at: 2026-04-23
+updated_at: 2026-04-23
+published: true
 tags:
   - engineering
 lang: en
-description:
+description: No software is ever finished. Trying to perfect it before shipping is slower than shipping and fixing what actually breaks.
 ---
-i want to write that:
-- [ ] no matter how perfect your logic might be, the world is always flawed and sometimes illogical — meaning you'll always run into edge cases and need to keep updating your code to make things running.
-- [ ] a story about how my cofounder likes to plot out every scenario before going into coding whereas i just start typing in the chatbox
-- [ ] i like how space x moved fast although they were building a spaceship and they were not afraid to make mistakes. 
-- [ ] i think thinking resolves some obvious caveats, and unless you're a prophet — you'll run into problems all the time.
-- [ ] i think once start things to work and it keeps working for a long time — then it's all about optimization from then on.
+Every piece of software you've ever loved was broken when it shipped. Yours will be too.
 
----
+There's no static version of software. No final build, no finished product. Every piece of working code needs a human on the other side — patching dependencies, fixing edge cases, adapting to the user who used it in a way you never pictured. The world keeps changing. Your software changes with it or it dies.
 
-[Yujong](https://www.linkedin.com/in/yujong1ee) and I are very different. 
+There are two ways to plan around this. Think upfront, build a foundation that holds. Or iterate as fast as possible and let reality tell you what the foundation should be. Garry Tan's [gstack](https://github.com/garrytan/gstack) is the clean version of the first — 23 structured roles reviewing every step from spec to QA. Peter Steinberger built [OpenClaw](https://steipete.me/) the other way. The first version took him an hour. Both are planning.
 
-We are entrepreneurs, artisans, and working on [Char](https://char.com) together. But we've lived a very different life and believe in different thing as well.
+I'm in Steinberger's camp. It's the uncomfortable one: ship something rough, use it, fix what actually breaks. Not what you imagined would break. What does.
 
-| Yujong                       | Me                            |
-| ---------------------------- | ----------------------------- |
-| Introverted                  | Extroverted                   |
-| Appreciates great *code*     | Appreciates great *product*   |
-| Mainly listens to Korean Rap | Listens to everything         |
-| Favors the happy path        | Likes to experience new stuff |
-| Prefers cost efficiency      | Prefers speed                 |
-| Atheist                      | Catholic                      |
-| Like to go jogging           | Likes to go hiking            |
+When I built [Philo](https://philo.so), I didn't plan it. I needed daily notes that Claude Code could read and write to without an API or SDK, so I wrote the smallest thing that did that, used it every day, and patched whatever annoyed me. Two weeks from scratch to a version I lived in.
 
-You might wonder how I was able to found a startup together with Yujong — this is a whole new topic that we can talk about [later](cofounder).
+Three weeks in I was fixing things I never would have written on a design doc — the always-on-top mode needed to fade when the window wasn't active, the global search needed to replace the whole view instead of hover. Trivial bugs. Only visible from inside the app. My cofounder [Yujong](cofounder) was astonished at the speed. What surprised him more was that it worked.
 
-Writing code has never been easier than before, but it doesn't mean that software is easy to build. Software is just one way to solve a business problem — unfortunately the world is fully of them. What's interesting when you solve someone's problem is they keep coming up with new problems. Also, software has multiple dependencies resulting in new issues all the time. Finally, and most importantly, you can never come up with every possible scenario that someone can run into.
+It worked *because* I shipped it broken. Every bug I hit was a bug I would have hit anyway, just later. Shipping first meant hitting them while they were still cheap.
 
---
+The version where I tried to get it right the first time doesn't exist, but I can describe it: a month of whiteboarding cases I thought mattered, then another month discovering I'd guessed wrong about most of them. We spent months at Char believing flat files were the right storage layer. No whiteboard would have told us otherwise. Actually running Char on them did.
 
-What comes through the software is that no matter how concrete your logic may be, at the end of the day, something's going to be broken. That's just how the world works. And no matter how you try to try hard not to patch things up, there are going to be edge cases that appear if you haven't thought about it.
+SpaceX failed three times before [Falcon 1](https://en.wikipedia.org/wiki/Falcon_1) reached orbit in 2008. Not because they were careless. Because the only way to learn what reality does to your design is to put the design in front of reality. Software blows up cheaper than any rocket.
 
-That's the whole reason why you try to actually launch fast as well as learn from the mistakes and patch things up in all the ways. It's really hard to do that. I guess once you get kind of go into a certain skill, but as—sorry about this—the most early stages of the software, when it's just way too premature, you don't actually have to care much about that.
+Shipping rough has costs. In April we [[essays/lessons-from-shipping|pulled local transcription]] before the replacement was stable, and we lost 200 of our earliest users. That's the tax. I'd still take it over six months of planning that shipped nothing.
 
-You will definitely sometimes break something in them, but the more valuable thing that you actually learned is you'll be able to discover things that you and your team weren't able to discover when you guys were only using. 
+None of this is permission to be sloppy. The opposite. Accepting that nothing is ever finished is what *makes* sustained attention possible. You ship, and then you care. Forever. Every user report, every dependency update — that's the job, not an interruption from it.
+
+Ship it. Then stay.
