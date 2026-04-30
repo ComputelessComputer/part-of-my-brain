@@ -17,3 +17,4 @@ expected scenario:
 some ideas:
 - *give ppl their number of the list?*
 - *make them share our launch post — this will spread to more relevant ppl!*
+
