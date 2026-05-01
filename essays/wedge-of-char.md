@@ -72,6 +72,8 @@ From the outside, Char is a timeline-based notetaking app. You open it, you see 
 
 Char looks like a notepad. It's actually an agent that reads your mind.
 
+![](Pasted%20image%2020260401175215.png)
+
 Underneath, a system reads your context across every stream it touches — meetings, screen activity, tasks, emails, calendar — and infers what matters. The daily note is a trojan horse for context capture. People want to write on it, and the writing is the data.
 
 It's also bundled with a CLI, which makes it just as native for AI agents as it is for humans. A person opens the GUI and types. An agent calls the CLI and reads. Same data, two interfaces.
@@ -82,7 +84,11 @@ It's also bundled with a CLI, which makes it just as native for AI agents as it 
 
 One person starts using Char. Daily notes, meetings, quick thoughts. The AI connects what you said at 10am to what someone emailed at 3pm, surfaces the follow-up you forgot about. You start relying on it.
 
+![](Pasted%20image%2020260401180653.png)
+
 Then you bring in your team. Everyone gets their own daily note. The AI now sees across all of them — triaging, routing decisions, flagging what's blocked. It stops being a personal tool and becomes shared infrastructure.
+
+![](Pasted%20image%2020260401181308.png)
 
 That's where it gets hard to leave. A solo daily note is replaceable — anyone can build one. But once the AI is managing context between people, removing it means losing months of accumulated organizational memory. That's not a feature. That's a foundation.
 
