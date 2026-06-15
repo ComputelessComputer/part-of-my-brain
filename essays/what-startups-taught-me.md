@@ -8,6 +8,16 @@ tags:
 lang: en
 description:
 ---
+got a mail from eo asking if i could give a short talk for wantreprenuers in snu and entrepreneurs in asan nanum foundation. 
+
+was thinking for a while how i could help them and make the most out of the hour i got. in total, i'm going to be talking in from of around 160 people so that's a lot of pressure. i don't expect to change everyone's lives. i don't expect to be the super charismatic, sexy person that everyone looks up to. i am not at that level, nor never will be. i'll try to tell them what i have been going through and that keeping it short and authentic will resonate the most imo.
+
+then i started thinking what would be the best way to do this. first of all, i believe fireside chats are the best. but if i'm playing this out myself, i might as well add some context about myself upfront so they can ask questions that's practical. and keeping things practical is important because i think korean founders tend to be too risk-adverse and want to adopt a framework that can be the ultimate cure for their situation - which btw does NOT exist. (if there was such thing, everyone would be a millionaire.)
+
+so i thought why not just have a list of things that i came to believe over the course of my entrepreneurship journey. and i want to start an open discussion from these statements - kinda fueling topics for a group chat.
+
+---
+
 - Don't think global: "Global" is what outsiders call America. In the Bay, people just talk about users, markets, distribution, and categories. [[essays/start-from-sf|Start from SF]]
 - Become native to the market: If you want American customers, don't "expand to the US"; live inside the market until your instincts become American. [[essays/start-from-sf|Start from SF]]
 - Korean users make you polished, SF users make you wrong faster: Korea rewards completeness; SF rewards being early, weird, broken, and directionally right. [[essays/start-from-sf|Start from SF]]
