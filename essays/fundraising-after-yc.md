@@ -2,7 +2,7 @@
 title: What I'd do differently fundraising after YC
 created_at: 2026-08-10
 updated_at: 2026-08-10
-published: false
+published: true
 tags:
   - startup
   - fundraising
