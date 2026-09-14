@@ -2,7 +2,7 @@
 title: The OnlyFans Test
 created_at: 2026-09-14
 updated_at: 2026-09-14
-published: false
+published: true
 tags:
   - startups
   - conviction
@@ -47,6 +47,8 @@ Two separate failure modes, not one. You can talk yourself out of a good idea by
 If revenue were the only scoreboard, [OnlyFans](https://en.wikipedia.org/wiki/OnlyFans) would be one of the best businesses ever built.
 
 Fiscal 2023: $1.3 billion in revenue, $658 million in pre-tax profit, 42 employees. That's roughly $31 million in revenue per employee — by some estimates it hit $37.6 million in 2024. Compare that to [Amazon](https://en.wikipedia.org/wiki/Amazon_%28company%29), at something like $400,000 per employee, and it's not close.
+
+![[only-fans-revenue-vs-headcount.jpg]]
 
 Gambling apps prove the same point even though most of them lose money on paper. [DraftKings](https://en.wikipedia.org/wiki/DraftKings) burns cash acquiring customers — but that's beside the point. The point is who's actually generating the revenue once someone's acquired. A 2023 study by [NatCen Social Research](https://en.wikipedia.org/wiki/National_Centre_for_Social_Research) (commissioned by the UK's Gambling Commission) found the top 10% of online gamblers generate 80% of industry revenue. The top 1% generate 36% of it, alone. That's not a company monetizing a product. That's a company monetizing a small number of people who can't stop.
 
