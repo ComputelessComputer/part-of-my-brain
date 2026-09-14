@@ -50,6 +50,8 @@ Fiscal 2023: $1.3 billion in revenue, $658 million in pre-tax profit, 42 employe
 
 ![[only-fans-revenue-vs-headcount.jpg]]
 
+That match in dollars doesn't mean the two sides created the same amount of value in the world. It means they captured a similar amount — with wildly different numbers of people doing the capturing.
+
 Gambling apps prove the same point even though most of them lose money on paper. [DraftKings](https://en.wikipedia.org/wiki/DraftKings) burns cash acquiring customers — but that's beside the point. The point is who's actually generating the revenue once someone's acquired. A 2023 study by [NatCen Social Research](https://en.wikipedia.org/wiki/National_Centre_for_Social_Research) (commissioned by the UK's Gambling Commission) found the top 10% of online gamblers generate 80% of industry revenue. The top 1% generate 36% of it, alone. That's not a company monetizing a product. That's a company monetizing a small number of people who can't stop.
 
 Stack either of those next to every CRM company, every B2B SaaS startup counting a 10% net margin as a win, and by pure revenue-per-employee logic, the SaaS companies are a rounding error.
@@ -57,6 +59,16 @@ Stack either of those next to every CRM company, every B2B SaaS startup counting
 Revenue-per-employee doesn't distinguish between value created and value extracted, and a scoreboard that can't tell the difference is broken. High margin isn't proof something good happened. Sometimes it's proof the other person had no way to say no.
 
 Now run the test in the other direction. Teaching is about as close to pure value creation as anything humans do, and it's near the bottom of any revenue-per-employee ranking you'll find. That's exactly backwards. The metric doesn't just overrate compulsion — it underrates the highest-value work there is, because that work was never built to extract anything back.
+
+### Creating it and capturing it are different games
+
+Same revenue can mean two completely different things happened to produce it.
+
+![[pmi-vs-salesforce.jpg]]
+
+Salesforce and Philip Morris International post almost identical numbers — $34.9 billion against $37.9 billion a year. Look at what sits on either side of that revenue, though. Every company running Salesforce is using it to close deals and generate revenue of its own that dwarfs what it pays for the software. Salesforce captures a sliver of a pie it helped grow. Philip Morris International's product doesn't grow anyone else's pie. There's no downstream business getting richer because more people smoke. PMI is capturing a much bigger share of a pie that's smaller to begin with — negative, once you count what smoking costs the people paying for it.
+
+Same revenue. Almost opposite ratio of value created to value captured. That ratio is the thing worth optimizing for. The revenue number sitting on top of it is not.
 
 ### Pick what you're optimizing for
 
@@ -71,5 +83,7 @@ Some people build their life around pleasure. That's a real answer. No argument 
 But look back at Musk and Chouinard. One bet his fortune on humanity surviving as more than a single-planet species. The other gave his company away to keep the planet livable enough to bother building anything on. Neither one was optimizing for a dollar amount, and neither one was optimizing for being a good person, either. Both were optimizing for whether we get to keep going.
 
 That's the actual test, and it's rougher than any word like *virtue* makes it sound: does this move the species forward, or does it just move money around? Does it make us a little more likely to still be here in a hundred years — or does it just make someone richer while we find out?
+
+Aim at creating value and, done disruptively enough, you usually capture more of it too — that's what disruption actually is: creating enough new value that the old system can't stop you from keeping your share. But the argument has a ceiling, and it isn't economic, it's biological. People are wired at a pretty primitive level — wanting sex, wanting to get high, wanting the next hit of anything that feels good — and that wiring guarantees demand no matter how little value sits behind it. Some money was never on the table because someone built something better. It was on the table because it was standing in front of an itch people can't not scratch.
 
 Don't start with the spreadsheet. It can only tell you what already worked for somebody else. Start with what you actually believe is worth building, and let that decide who it's for — and what you'll say no to along the way. If the honest answer to "why this" is a market-size slide, you haven't found the reason yet.
